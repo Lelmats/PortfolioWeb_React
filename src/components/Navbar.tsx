@@ -24,7 +24,7 @@ initTWE({ Collapse, Dropdown });
           <span
             className="[&>svg]:w-7 [&>svg]:stroke-black/50 dark:[&>svg]:stroke-neutral-200">
             <svg
-              // xmlns="http://www.w3.org/2000/svg"
+              xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor">
               <path

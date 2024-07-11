@@ -47,8 +47,8 @@ function App() {
       </div>
     </div>
     <div className="bg-cover bg-backgroundPrimary flex p-28 sm:text-5xl md:text-5xl xl:text-6xl text-4xl" style={backgroundStyle} id='Experience' >
-      <div className='mx-auto'>
-        <h1 className='border-b-8 border-secondaryColor text-white text-center font-JetBrains'>Experience</h1> 
+      <div className=''>
+        <h1 className='border-b-8 border-secondaryColor text-white  font-JetBrains'>Experience</h1> 
       </div>
     </div>
     </>
