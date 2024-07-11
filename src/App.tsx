@@ -7,13 +7,15 @@ function App() {
   const backgroundStyle: CSS.Properties = {
     backgroundImage: "url('img/IconsBackground@2x.png')",
     height: "100vh",
+    borderTop: "2px dashed rgba(145, 142, 177, 0.5)",
+    
   };
 
   return (
     <>
     {/* Section 1 - Me */}
     <Navbar/>
-    <div className="bg-cover bg-backgroundPrimary flex items-center" style={backgroundStyle}>
+    <div className="bg-cover bg-backgroundPrimary flex items-center" style={backgroundStyle} id='Home'>
       <div className='grid grid-cols-1 md:grid-cols-2 grid-flow-row sm:mx-28 xl:mx-64 w-screen mx-16 '>
         <div className='  '>
             <h1 className='sm:text-5xl md:text-5xl xl:text-7xl text-4xl font-JetBrains text-left text-white h-fit'> 
@@ -37,10 +39,17 @@ function App() {
         </div>
       </div>
     </div>
-    <br />
+    {/* <br /> */}
     {/* Section 2 */}
-    <div className="bg-cover bg-backgroundPrimary" style={backgroundStyle}>
-
+    <div className="bg-cover bg-backgroundPrimary flex p-28 sm:text-5xl md:text-5xl xl:text-6xl text-4xl" style={backgroundStyle} id='AboutMe' >
+      <div className='mx-auto'>
+        <h1 className='border-b-8 border-secondaryColor text-white text-center font-JetBrains'>AboutMe</h1> 
+      </div>
+    </div>
+    <div className="bg-cover bg-backgroundPrimary flex p-28 sm:text-5xl md:text-5xl xl:text-6xl text-4xl" style={backgroundStyle} id='Experience' >
+      <div className='mx-auto'>
+        <h1 className='border-b-8 border-secondaryColor text-white text-center font-JetBrains'>Experience</h1> 
+      </div>
     </div>
     </>
   )
