@@ -26,7 +26,8 @@ initTWE({ Collapse, Dropdown });
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
-              fill="currentColor">
+              fill="currentColor"
+              >
               <path
                 fill-rule="evenodd"
                 d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
@@ -94,9 +95,17 @@ initTWE({ Collapse, Dropdown });
             <li className="mb-4 lg:mb-0 lg:pe-2" data-twe-nav-item-ref>
               <a
                 className="text-black/60 transition duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
-                href="#"
+                href="https://www.linkedin.com/in/max-alejandro-rivera-higuera-8484b9208/"
                 data-twe-nav-link-ref
-                >Dashboard</a
+                ><i className="fa-brands fa-linkedin fa-xl" ></i></a
+              >
+            </li>
+            <li className="mb-4 lg:mb-0 lg:pe-2" data-twe-nav-item-ref>
+              <a
+                className="text-black/60 transition duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
+                href="https://github.com/Lelmats"
+                data-twe-nav-link-ref
+                ><i className="fa-brands fa-github fa-xl"></i></a
               >
             </li>
           </ul>
