@@ -11,7 +11,7 @@ initTWE({ Collapse, Dropdown });
   return (
     <nav
       // className="flex-no-wrap fixed lg:relative top-0 flex w-full items-center justify-between bg-[#FBFBFB] py-2 shadow-md shadow-black/5 dark:bg-neutral-600 dark:shadow-black/10 lg:flex-wrap lg:justify-start lg:py-4">
-      className="flex-no-wrap fixed  top-0 flex w-full items-center justify-between bg-[#FBFBFB] py-2 shadow-md shadow-black/5 dark:bg-neutral-600 dark:shadow-black/10 lg:flex-wrap lg:justify-start lg:py-4">
+      className="flex-no-wrap fixed top-0 flex w-full items-center justify-between bg-[#FBFBFB] py-2 shadow-md shadow-black/5 dark:bg-neutral-600 dark:shadow-black/10 lg:flex-wrap lg:justify-start lg:py-4">
       <div className="flex w-full flex-wrap items-center justify-between px-3">
         <button
           className="block border-0 bg-transparent px-2 text-black/50 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden"
@@ -87,22 +87,22 @@ initTWE({ Collapse, Dropdown });
           </ul>
         </div>
               
-        {/* RightBar */} 
-        <div className="relative flex items-center">
+        {/* RightBar/Burger */} 
+        <div className="relative flex items-center ">
         <ul
-            className="list-style-none me-auto flex flex-col ps-0 lg:flex-row font-JetBrains"
+            className="list-style-none me-auto flex ps-0  lg:flex-row  font-JetBrains "
             data-twe-navbar-nav-ref>
-            <li className="mb-4 lg:mb-0 lg:pe-2" data-twe-nav-item-ref>
+            <li className="mr-2 sm:mr-2 lg:mb-0 " data-twe-nav-item-ref>
               <a
-                className="text-black/60 transition duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
+                className="text-black/60 transition duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-1"
                 href="https://www.linkedin.com/in/max-alejandro-rivera-higuera-8484b9208/"
                 data-twe-nav-link-ref
                 ><i className="fa-brands fa-linkedin fa-xl" ></i></a
               >
             </li>
-            <li className="mb-4 lg:mb-0 lg:pe-2" data-twe-nav-item-ref>
+            <li className="mr-2 lg:mr-0 lg:mb-0 " data-twe-nav-item-ref>
               <a
-                className="text-black/60 transition duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
+                className="text-black/60 transition duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-1"
                 href="https://github.com/Lelmats"
                 data-twe-nav-link-ref
                 ><i className="fa-brands fa-github fa-xl"></i></a
