@@ -15,7 +15,7 @@ function App() {
     <>
     {/* Section 1 - Me */}
     <Navbar/>
-    <div className="bg-cover bg-backgroundPrimary flex items-center" style={backgroundStyle} id='Home'>
+    <div className="flex bg-cover bg-backgroundPrimary items-center sm:pt-20" style={backgroundStyle} id='Home'>
       <div className='font-JetBrains grid grid-cols-1 md:grid-cols-2 grid-flow-row sm:mx-28 xl:mx-64 w-screen mx-16 '>
         <div className='  '>
             <h1 className='sm:text-5xl md:text-5xl xl:text-7xl text-4xl text-left text-white h-fit'> 
@@ -43,8 +43,8 @@ function App() {
     {/* Section 2 */}
     <div className="bg-cover flex bg-backgroundPrimary p-10 xl:p-28 items-center" style={backgroundStyle} id='AboutMe'>
       <div className='md:grid md:grid-flow-row'>
-        <div className='mb-8 md:grid md:grid-flow-col'>
-          <h1 className='font-JetBrains mr-10 mb-4 border-b-8 border-secondaryColor text-white text-4xl sm:text-5xl md:text-5xl xl:text-6xl w-fit h-fit'>
+        <div className='mb-3 md:mt-8 md:grid md:grid-flow-col '>
+          <h1 className='font-JetBrains mr-10 mb-4 border-b-8 border-secondaryColor text-white text-4xl sm:text-5xl md:text-5xl xl:text-6xl w-fit h-fit '>
             About Me
           </h1>
           <p className='text-md min-[600px]:text-lg sm:text-xl md:text-2xl xl:text-3xl text-white 2xl:w-3/4 ml-auto text-justify'>
@@ -57,7 +57,7 @@ function App() {
           </p>
         </div>
         <div className='md:grid md:grid-flow-col'>
-          <div className='flex items-center '>
+          <div className='flex items-center order-last'>
             <div className='sm:mb-5 mx-auto'>
               <h1 className='font-JetBrains text-white border-b-8 border-secondaryColor md:mb-6 ml-auto text-3xl sm:text-5xl md:text-5xl xl:text-6xl '>Technologies</h1> 
               {/* <h1 className='font-JetBrains text-white text-center w-fit ml-auto sm:text-5xl md:text-5xl xl:text-6xl '>Experience &</h1>  */}
@@ -82,15 +82,16 @@ function App() {
     </div> 
 
     {/* Section 3 */}
-    <div className="bg-cover bg-backgroundPrimary flex p-16 sm:text-5xl md:text-5xl xl:text-6xl text-4xl" style={backgroundStyle} id='Projects' >
+    <div className="bg-cover bg-backgroundPrimary flex py-28 sm:text-5xl md:text-5xl xl:text-6xl text-4xl" style={backgroundStyle} id='Experience' >
       <div className='mx-auto'>
-        <h1 className='font-JetBrains border-b-8 border-secondaryColor text-white text-center '>Experience</h1> 
+        <h1 className='font-JetBrains text-white border-b-8 border-secondaryColor md:mb-6 ml-auto text-3xl sm:text-5xl md:text-5xl xl:text-6xl '>Experience</h1> 
       </div>
     </div>
+
     {/* Section 4 */}
-    <div className="bg-cover bg-backgroundPrimary flex p-28 sm:text-5xl md:text-5xl xl:text-6xl text-4xl" style={backgroundStyle} id='Projects' >
+    <div className="bg-cover bg-backgroundPrimary flex py-28 sm:text-5xl md:text-5xl xl:text-6xl text-4xl" style={backgroundStyle} id='Projects' >
       <div className='mx-auto'>
-        <h1 className='font-JetBrains border-b-8 border-secondaryColor text-white text-center '>Projects</h1> 
+        <h1 className='font-JetBrains text-white border-b-8 border-secondaryColor md:mb-6 ml-auto text-3xl sm:text-5xl md:text-5xl xl:text-6xl '>Projects</h1> 
       </div>
     </div>
     </>
