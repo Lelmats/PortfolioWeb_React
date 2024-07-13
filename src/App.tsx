@@ -41,13 +41,13 @@ function App() {
     </div>
     {/* <br /> */}
     {/* Section 2 */}
-    <div className="bg-cover flex bg-backgroundPrimary p-10 xl:p-28" style={backgroundStyle} id='AboutMe'>
+    <div className="bg-cover flex bg-backgroundPrimary p-10 xl:p-28 items-center" style={backgroundStyle} id='AboutMe'>
       <div className='md:grid md:grid-flow-row'>
         <div className='mb-8 md:grid md:grid-flow-col'>
           <h1 className='font-JetBrains mr-10 mb-4 border-b-8 border-secondaryColor text-white text-4xl sm:text-5xl md:text-5xl xl:text-6xl w-fit h-fit'>
             About Me
           </h1>
-          <p className='text-xl sm:text-xl md:text-2xl xl:text-3xl text-white 2xl:w-3/4 ml-auto text-justify'>
+          <p className='text-md min-[600px]:text-lg sm:text-xl md:text-2xl xl:text-3xl text-white 2xl:w-3/4 ml-auto text-justify'>
             I'm a Software Developer with a strong background
             in Front-End development and some experience in Back-End.
             Currently, I'm deepening my knowledge in data structures
@@ -57,14 +57,14 @@ function App() {
           </p>
         </div>
         <div className='md:grid md:grid-flow-col'>
-          <div className='flex sm:text-4xl md:text-4xl xl:text-6xl text-3xl items-center justify-center'>
-            <div className='mr-10 sm:mb-5 '>
-              <h1 className='font-JetBrains text-white border-b-8 border-secondaryColor md:mb-6 ml-auto sm:text-5xl md:text-5xl xl:text-6xl'>Technologies</h1> 
+          <div className='flex items-center '>
+            <div className='sm:mb-5 mx-auto'>
+              <h1 className='font-JetBrains text-white border-b-8 border-secondaryColor md:mb-6 ml-auto text-3xl sm:text-5xl md:text-5xl xl:text-6xl '>Technologies</h1> 
               {/* <h1 className='font-JetBrains text-white text-center w-fit ml-auto sm:text-5xl md:text-5xl xl:text-6xl '>Experience &</h1>  */}
             </div>
           </div>
           <div className=''>
-              <img src="/img/Tech_Icons.png" alt="" className='mt-5 sm:mt-0 h-[20rem] sm:h-[25rem] xl:h-[30rem] object-contain mx-auto'/>
+              <img src="/img/Tech_Icons.png" alt="" className='mt-3 sm:mt-0 max-[600px]:h-[18rem] h-[22rem] sm:h-[25rem] xl:h-[30rem] object-contain mx-auto'/>
           </div>
         </div>
       </div>
