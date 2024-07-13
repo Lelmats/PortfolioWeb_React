@@ -2,6 +2,9 @@
 
 @tailwind base;
 
+html {
+  scroll-behavior: smooth;
+}
 :root {
   --primaryScrollBar: rgb(64, 60, 68);
   --secondaryScrollBar: rgb(106, 110, 114);
@@ -36,4 +39,3 @@
     font-family: "JetBrains Mono";
     src: url("/fonts/JetBrainsMono-VariableFont_wght.ttf");
   }
-
