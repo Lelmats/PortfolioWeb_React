@@ -63,7 +63,7 @@ function App() {
             </div>
           </div>
           <div className=''>
-              <img src="/img/Tech_Icons.png" alt="" className='mt-6 sm:mt-0 max-[600px]:h-[18rem] h-[22rem] sm:h-[25rem] xl:h-[30rem] object-contain mx-auto'/>
+              <img src="/img/Tech_Icons.png" alt="" className='mt-6 sm:mt-0 max-[600px]:h-[18rem] h-[22rem] sm:h-[25rem] xl:h-[30rem] object-contain mx-auto origin-center hover:scale-105 hover:translate-y-[-4px] transition-all'/>
           </div>
         </div>
       </div>
@@ -84,7 +84,7 @@ function App() {
     <div className="flex bg-cover font-JetBrains bg-backgroundPrimary py-10 sm:text-5xl md:text-5xl xl:text-6xl text-4xl items-center" style={backgroundStyle} id='Experience' >
       <div className='mx-auto sm:w-2/3'>
         <div className=''>
-          <h1 className='mx-auto w-fit text-white border-b-8 border-secondaryColor md:mb-5 ml-auto text-2xl sm:text-4xl md:text-4xl xl:text-5xl '>Experience</h1> 
+          <h1 className='mx-auto w-fit text-white border-b-8 border-secondaryColor md:mb-5 ml-auto text-2xl sm:text-4xl md:text-4xl xl:text-5xl line-1 anim-typewriter'>Experience </h1> 
         </div>
         <div className="grid grid-rows-3 gap-1 lg:gap-4 text-center">
           <div className='bg-[#ffffff10] hover:bg-[#ffffff25] border-4 border-secondaryColor mx-3 mt-5 p-2 shadow-sm hover:shadow-xl hover:translate-x-4 hover:translate-y-[-4px] transition-all'>
