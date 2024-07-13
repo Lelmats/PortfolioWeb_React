@@ -64,7 +64,7 @@ function App() {
             </div>
           </div>
           <div className=''>
-              <img src="/img/Tech_Icons.png" alt="" className='h-[25rem] xl:h-[30rem] object-contain mx-auto'/>
+              <img src="/img/Tech_Icons.png" alt="" className='mt-5 sm:mt-0 h-[20rem] sm:h-[25rem] xl:h-[30rem] object-contain mx-auto'/>
           </div>
         </div>
       </div>
