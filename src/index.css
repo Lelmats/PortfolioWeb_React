@@ -39,3 +39,11 @@ html {
     font-family: "JetBrains Mono";
     src: url("/fonts/JetBrainsMono-VariableFont_wght.ttf");
   }
+@font-face {
+    font-family: "Roboto Condensed", sans-serif;
+    src: url("/fonts/RobotoCondensed-VariableFont_wght.ttf");
+  }
+@font-face {
+    font-family: "Roboto Slab", serif;
+    src: url("fonts/RobotoSlab-VariableFont_wght.ttf");
+  }
