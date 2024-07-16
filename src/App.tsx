@@ -6,7 +6,6 @@ function App() {
 
   const backgroundStyle: CSS.Properties = {
     backgroundImage: "url('img/IconsBackground@2x.png')",
-    height: "100vh",
     borderTop: "2px dashed rgba(145, 142, 177, 0.5)",
   };
 
@@ -14,7 +13,7 @@ function App() {
     <>
     {/* Section 1 - Me */}
     <Navbar/>
-    <div className="flex bg-cover bg-backgroundPrimary items-center sm:pt-20" style={backgroundStyle} id='Home'>
+    <div className="flex bg-cover bg-backgroundPrimary items-center sm:pt-20 h-dvh" style={backgroundStyle} id='Home'>
       <div className='font-JetBrains grid grid-cols-1 md:grid-cols-2 grid-flow-row sm:mx-28 xl:mx-64 w-screen mx-16 '>
         <div className="">
             <h1 className='sm:text-5xl md:text-5xl xl:text-7xl text-4xl text-left text-white h-fit'> 
@@ -40,10 +39,13 @@ function App() {
     </div>
     {/* <br /> */}
     {/* Section 2 */}
-    <div className="bg-cover flex bg-backgroundPrimary p-10 xl:p-28 items-center" style={backgroundStyle} id='AboutMe'>
+    <div className="bg-cover flex bg-backgroundPrimary p-10 xl:p-28 items-center " style={backgroundStyle} id='AboutMe'>
+      <div className='absolute left-[45%] mb-44 lg:left-[42%] xl:left-[43%] z-49' >
+        <img src="img/ArrowW.png" alt="" className='w-[150px] xl:w-[200px] 2xl:w-[250px] rotate-[-100deg] max-[1000px]:hidden '/>
+      </div>
       <div className='md:grid md:grid-flow-row'>
         <div className='mb-3 md:grid md:grid-flow-col '>
-          <h1 className='font-RobotoSlab rounded-lg mr-10 mb-4 border-b-8 border-secondaryColor text-white text-3xl sm:text-4xl md:text-4xl xl:text-5xl w-fit h-fit '>
+          <h1 className='font-RobotoSlab rounded-lg mr-10 my-4 border-b-8 border-secondaryColor text-white text-3xl sm:text-4xl md:text-4xl xl:text-5xl w-fit h-fit '>
             About Me
           </h1>
           <p className='font-RobotoSlab text-md min-[600px]:text-lg sm:text-lg md:text-xl xl:text-2xl text-white 2xl:w-3/4 ml-auto text-balance text-right max-md:text-center'>
@@ -58,8 +60,8 @@ function App() {
         <div className='md:grid md:grid-flow-col'>
           <div className='flex items-center order-last'>
             <div className='sm:mb-5 max-md:mx-auto'>
-              <h1 className='font-JetBrains text-white border-b-8 border-secondaryColor md:mb-6 ml-auto text-2xl sm:text-4xl md:text-4xl xl:text-5xl rounded-lg'>Technologies</h1> 
-              <h2 className='font-RobotoCondensed text-white md:mb-6 ml-auto text-2xl sm:text-4xl md:text-4xl xl:text-2xl '>The ones i am more confortable with</h2>
+            <h1 className='font-RobotoSlab mx-auto w-fit text-white border-b-8 border-secondaryColor rounded-lg mb-5 md:mb-5 ml-auto text-2xl sm:text-4xl md:text-4xl xl:text-5xl mt-5'>Technologies </h1> 
+            <h2 className='font-RobotoCondensed text-white md:mb-6 ml-auto text-2xl sm:text-3xl md:text-2xl xl:text-xl '>The ones i am more confortable with:</h2>
               {/* <h1 className='font-JetBrains text-white text-center w-fit ml-auto sm:text-5xl md:text-5xl xl:text-6xl '>Experience &</h1>  */}
             </div>
           </div>
@@ -81,13 +83,16 @@ function App() {
     </div> 
 
     {/* Section 3 */}
-    <div className="flex bg-cover font-JetBrains bg-backgroundPrimary py-10 sm:text-5xl md:text-5xl xl:text-6xl text-4xl items-center" style={backgroundStyle} id='Experience' >
-      <div className='mx-auto sm:w-2/3'>
+    <div className="flex bg-cover font-JetBrains bg-backgroundPrimary py-10 sm:text-5xl md:text-5xl xl:text-6xl text-4xl items-center " style={backgroundStyle} id='Experience' >
+      <div className='mx-auto sm:w-2/3 '>
         <div className=''>
-          <h1 className='mx-auto w-fit text-white border-b-8 border-secondaryColor rounded-lg md:mb-5 ml-auto text-2xl sm:text-4xl md:text-4xl xl:text-5xl '>Experience </h1> 
+          <h1 className='mx-auto w-fit text-white border-b-8 border-secondaryColor rounded-lg mb-5 md:mb-5 ml-auto text-2xl sm:text-4xl md:text-4xl xl:text-5xl mt-5'>
+            Experience
+          </h1> 
         </div>
-        <div className="grid grid-rows-3 gap-1 lg:gap-4 text-center">
-          <div className='bg-[#8b8b8b10] hover:bg-[#8b8b8b25] border-4 border-secondaryColor rounded-lg mx-3 mt-5 p-2 shadow-sm hover:shadow-xl hover:translate-x-4 hover:translate-y-[-4px] transition-all duration-[400ms]'>
+        <div className="text-center mb-5">
+          <div className='mx-auto my-4 h-10 sm:h-16 w-1 bg-secondaryColor rounded-lg'></div>
+          <div className='bg-[#8b8b8b10] hover:bg-[#8b8b8b25] border-4 border-secondaryColor rounded-lg mx-3  p-2 shadow-sm sm:hover:shadow-xl  sm:hover:translate-x-4  sm:hover:translate-y-[-4px] transition-all duration-[400ms]'>
             <div className='grid sm:grid-cols-5 items-center'>
               <div className='md:col-span-1'>
                 <img src="img\MAIcon.jpeg" alt="MediaAerea" className='max-[640px]:w-[18%] max-w-[100px] mx-auto shadow-md'/>
@@ -99,7 +104,8 @@ function App() {
               </div>
             </div>
           </div>
-          <div className='bg-[#8b8b8b10] hover:bg-[#8b8b8b25] border-4 border-secondaryColor rounded-lg mx-3 mt-5 p-2 shadow-sm hover:shadow-xl hover:translate-x-4 hover:translate-y-[-4px] transition-all duration-[400ms]'>
+          <div className='mx-auto my-4 h-10 sm:h-16 w-1 bg-secondaryColor rounded-lg'></div>
+          <div className='bg-[#8b8b8b10] hover:bg-[#8b8b8b25] border-4 border-secondaryColor rounded-lg mx-3  p-2 shadow-sm sm:hover:shadow-xl  sm:hover:translate-x-4  sm:hover:translate-y-[-4px] transition-all duration-[400ms]'>
             <div className='grid sm:grid-cols-5 items-center'>
               <div className='md:col-span-1'>
                 <img src="img\MAIcon.jpeg" alt="MediaAerea" className='max-[640px]:w-[18%] max-w-[100px] mx-auto shadow-md'/>
@@ -111,10 +117,11 @@ function App() {
               </div>
             </div>
           </div>
-          <div className='bg-[#8b8b8b10] hover:bg-[#8b8b8b25] border-4 border-secondaryColor rounded-lg mx-3 mt-5 p-2 shadow-sm hover:shadow-xl hover:translate-x-4 hover:translate-y-[-4px] transition-all duration-[400ms]'>
+          <div className='mx-auto my-4 h-10 sm:h-16 w-1 bg-secondaryColor rounded-lg'></div>
+          <div className='bg-[#8b8b8b10] hover:bg-[#8b8b8b25] border-4 border-secondaryColor rounded-lg mx-3  p-2 shadow-sm sm:hover:shadow-xl  sm:hover:translate-x-4  sm:hover:translate-y-[-4px] transition-all duration-[400ms]'>
             <div className='grid sm:grid-cols-5 items-center'>
               <div className='md:col-span-1'>
-                <img src="img\MAIcon.jpeg" alt="MediaAerea" className='max-[640px]:w-[18%] max-w-[100px] mx-auto shadow-md'/>
+                <img src="img\Rubisco.png" alt="Rubisco" className='max-[640px]:w-[18%] max-w-[100px] mx-auto shadow-md'/>
               </div>
               <div className='sm:col-span-4'>
                 <h1 className='text-white text-lg md:text-xl py-2 font-bold'>Frontend Developer - Freelance</h1>
@@ -128,9 +135,11 @@ function App() {
     </div>
 
     {/* Section 4 */}
-    <div className="bg-cover bg-backgroundPrimary flex py-28 sm:text-5xl md:text-5xl xl:text-6xl text-4xl" style={backgroundStyle} id='Projects' >
+    <div className="bg-cover bg-backgroundPrimary flex py-28 sm:text-5xl md:text-5xl xl:text-6xl text-4xl h-dvh" style={backgroundStyle} id='Projects' >
       <div className='mx-auto'>
-        <h1 className='font-JetBrains text-white border-b-8 border-secondaryColor md:mb-6 ml-auto text-3xl sm:text-5xl md:text-5xl xl:text-6xl '>Projects</h1> 
+      <h1 className='font-JetBrains w-fit text-white border-b-8  border-secondaryColor rounded-lg mb-5 md:mb-5 ml-auto text-2xl sm:text-4xl md:text-4xl xl:text-5xl mt-5'>
+            Projects & More
+          </h1> 
       </div>
     </div>
     </>

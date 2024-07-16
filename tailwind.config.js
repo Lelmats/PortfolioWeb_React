@@ -20,6 +20,7 @@ export default {
       colors: {
         'backgroundPrimary': '#334155',
         'secondaryColor': '#9992D6',
+        'secondaryColor2': '#c792df',
       },
       animation: {
         'spin-slow': 'spin 15s linear infinite',
