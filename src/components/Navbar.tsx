@@ -9,6 +9,7 @@ export const Navbar = () => {
 initTWE({ Collapse, Dropdown });
 
   return (
+    
     <nav
       // className="flex-no-wrap fixed lg:relative top-0 flex w-full items-center justify-between bg-[#FBFBFB] py-2 shadow-md shadow-black/5 dark:bg-neutral-600 dark:shadow-black/10 lg:flex-wrap lg:justify-start lg:py-4">
       className="flex-no-wrap fixed top-0 flex w-full items-center justify-between bg-[#FBFBFB] py-2 shadow-md shadow-black/5 dark:bg-neutral-600 dark:shadow-black/10 lg:flex-wrap lg:justify-start lg:py-4 z-[50]">
@@ -231,6 +232,7 @@ initTWE({ Collapse, Dropdown });
         </div>
       </div>
     </nav>
+
   )
 }
 
