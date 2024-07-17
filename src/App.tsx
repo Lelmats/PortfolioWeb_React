@@ -40,8 +40,7 @@ function App() {
         </div>
       </div>
     </div>
-    {/* <br /> */}
-    {/* Section 2 */}
+    {/* Section 2 - About Me/Technologies */}
     <div className="flex bg-backgroundPrimary p-10 xl:p-28 items-center " style={backgroundStyle} id='AboutMe'>
       <div className='absolute left-[45%] mb-44 lg:left-[42%] xl:left-[43%] z-49' >
         <img src="img/ArrowW.png" alt="" className='w-[150px] xl:w-[200px] 2xl:w-[250px] rotate-[-100deg] max-[1000px]:hidden '/>
@@ -74,19 +73,8 @@ function App() {
         </div>
       </div>
     </div>
-    {/* Section 2.5 */}
-    {/* <div className=" flex max-lg:grid bg-backgroundPrimary px-10 md:px-24 2xl:px-36 sm:text-5xl md:text-5xl xl:text-6xl text-4xl justify-center md:justify-center lg:justify-between items-center" style={backgroundStyle} id='Experience' >
-        <div className='mx-10'>
-          <h1 className='font-JetBrains text-white text-center '>Experience &</h1> 
-          <h1 className='font-JetBrains border-b-8 border-secondaryColor text-white text-center md:mb-6'>Technologies</h1> 
-        </div>
-        <div>
-          <img src="/img/Tech_Icons.png" alt="" className='h-[30rem] lg:h-[45rem] object-contain '/>
-        </div>
-    </div> 
-
-    {/* Section 3 */}
-    <div className="flex  font-JetBrains bg-backgroundPrimary py-10 sm:text-5xl md:text-5xl xl:text-6xl text-4xl items-center " style={backgroundStyle} id='Experience' >
+    {/* Section 3 - Experience */}
+    <div className="flex  font-JetBrains bg-backgroundPrimary py-16 sm:text-5xl md:text-5xl xl:text-6xl text-4xl items-center " style={backgroundStyle} id='Experience' >
       <div className='mx-auto sm:w-2/3 '>
         <div className=''>
           <h1 className='mx-auto w-fit text-white border-b-8 border-secondaryColor rounded-lg mb-5 md:mb-5 ml-auto text-2xl sm:text-4xl md:text-4xl xl:text-5xl mt-5'>
@@ -116,42 +104,46 @@ function App() {
       </div>
     </div>
 
-    {/* Section 4 */}
+    {/* Section 4 - Projects */}
     <div className="flex  bg-backgroundPrimary py-28 sm:text-5xl md:text-5xl xl:text-6xl text-4xl" style={backgroundStyle} id='Projects' >
+        <div className='absolute mb-44 left-[80%] lg:left-[82%] xl:left-[82%] z-49'>
+          <img src="img/ClickWG.png" alt="" className=' w-[150px] xl:w-[200px] 2xl:w-[250px] max-md:hidden'/>
+        </div>
       <div className='mx-auto'>
-        <h1 className='font-JetBrains mx-auto text-center w-fit text-white border-b-8 border-secondaryColor rounded-lg mb-16  ml-auto text-2xl sm:text-4xl md:text-4xl xl:text-5xl'>
+        <h1 className='font-JetBrains mx-auto text-center w-fit text-white border-b-8 border-secondaryColor rounded-lg mb-8  ml-auto text-2xl sm:text-4xl md:text-4xl xl:text-5xl'>
             Projects & More
         </h1> 
-        <div className='grid '>
+        <h1 className='font-JetBrains mx-auto text-center w-fit text-white border-b-4 border-secondaryColor rounded-lg mb-12  ml-auto text-xl sm:text-xl md:text-2xl xl:text-3xl'>
+            Web Development
+        </h1> 
+        <div className='grid'>
           <CardProject
             title='Crypto Control'
-            description='lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.'
+            description=' Control de criptomonedas, con la posibilidad de 
+            calcular precios de mercado usando un API externa, 
+            la cual se actualiza y muestra los precios en tiempo real.'
             tags={['React','Vite','TailwindCSS']}
-            imgPath='img/Control_Crypto.png'
+            imgPath='img/Control_Crypto_SM.png'
+            linkGithub='https://github.com/Lelmats/Crypto_Info-react-vite'
           />
           <CardProject
-            title='Rubisco'
-            description='lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.'
+            title='Control Gastos'
+            description='Control de gastos personales, con la posibilidad de agregar, editar y eliminar gastos, utilizando LocalStorage para almacenar los datos y mantenerlos en el navegador. '
             tags={['React','Vite','TailwindCSS']}
-            imgPath='img/Rubisco.png'
+            imgPath='img/Control_Gastos_SM.png'
+            linkGithub='https://github.com/Lelmats/Control_Gastos-react-vite'
           />
           <CardProject
-            title='Rubisco'
-            description='lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.'
+            title='Formulario RestAPI'
+            description='Formulario que consume una RestAPI, con la posibilidad de agregar, editar y eliminar datos. '
             tags={['React','Vite','TailwindCSS']}
-            imgPath='img/Rubisco.png'
+            imgPath='img/Form_RestAPI_SM.png'
+            linkGithub='https://github.com/Lelmats/Form_RestAPI-react-vite'
           />
-
-          <CardProject
-            title='Crypto Control'
-            description='lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.'
-            tags={['React','Vite','TailwindCSS']}
-            imgPath='img/Control_Crypto.png'
-          />
-
-
-
         </div>
+        <h1 className='font-JetBrains mx-auto mt-5 text-center w-fit text-white border-b-4 border-secondaryColor rounded-lg mb-12  ml-auto text-xl sm:text-xl md:text-2xl xl:text-3xl'>
+            Game Development
+        </h1> 
       </div>
     </div>
     </>
