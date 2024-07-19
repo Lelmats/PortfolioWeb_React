@@ -24,6 +24,8 @@ export default {
       },
       animation: {
         'spin-slow': 'spin 15s linear infinite',
+        'spin-slow-1': 'spin 25s linear infinite',
+        'spin-slow-2': 'spin 35s linear infinite',
       }
     },
   },
