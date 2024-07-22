@@ -18,9 +18,9 @@ export const CardProject = ({ title, description, tags, imgPath, linkGithub, itc
   return (
     <>
       <div className="">
-        <a className="flex flex-col border-4 border-gray-400 rounded-lg md:flex-row  min-w-[40vw] md:max-w-[60vw] max-md:mx-8 mb-4 mx-4 
+        <a className="flex flex-col border-4 border-gray-400 rounded-lg md:flex-row items-center min-w-[40vw] md:max-w-[60vw] max-md:mx-8 mb-4 mx-4 
           bg-[#8b8b8b10] hover:bg-[#8b8b8b25] shadow-sm sm:hover:shadow-xl sm:hover:translate-x-4 sm:hover:translate-y-[-4px] transition-all duration-[400ms]">
-          <img className="object-cover object-top rounded-t-md h-[200px] md:w-48 md:rounded-none md:rounded-s-md" src={imgPath} alt="" />
+          <img className="object-cover object-top rounded-t-md min-w-[200px] h-[200px] md:w-48 md:rounded-xl  p-2 " src={imgPath} alt="" />
           <div className="flex flex-col justify-between p-4 leading-normal ">
             <h5 className="mb-2 text-xl font-bold tracking-tight text-white">{title}</h5>
             <p className="mb-3 text-base font-semibold md:text-md text-gray-700 dark:text-gray-300 text-wrap">{description}</p>

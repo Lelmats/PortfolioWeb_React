@@ -24,8 +24,14 @@ export default {
       },
       animation: {
         'spin-slow': 'spin 15s linear infinite',
-        'spin-slow-1': 'spin 25s linear infinite',
+        'spin-slow-1': 'spin-counterclockwise 25s linear infinite',
         'spin-slow-2': 'spin 35s linear infinite',
+      },
+      keyframes: {
+        'spin-counterclockwise': {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(-360deg)' },
+        }
       }
     },
   },

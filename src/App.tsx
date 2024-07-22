@@ -107,58 +107,52 @@ function App() {
       </div>
     </div>
 
-    {/* Section 4 - Projects */}
-    <div className="flex  bg-backgroundPrimary py-28 sm:text-5xl md:text-5xl xl:text-6xl text-4xl" style={backgroundStyle} id='Projects' >
-        <div className='absolute mb-44 left-[80%] lg:left-[82%] xl:left-[82%] z-49'>
-          <img src="img/ClickWG.png" alt="" className=' w-[150px] xl:w-[200px] 2xl:w-[250px] max-md:hidden'/>
-        </div>
+    {/* /* Section 4 - Projects */}
+    <div className="flex bg-backgroundPrimary py-28 sm:text-5xl md:text-5xl xl:text-6xl text-4xl" style={backgroundStyle} id='Projects'>
+      <div className='absolute mb-44 left-[80%] lg:left-[82%] xl:left-[82%] z-49'>
+        <img src="img/ClickWG.png" alt="" className='w-[150px] xl:w-[200px] 2xl:w-[250px] max-md:hidden' />
+      </div>
       <div className='mx-auto'>
-        <h1 className='font-JetBrains mx-auto text-center w-fit text-white border-b-8 border-secondaryColor rounded-lg mb-8  ml-auto text-2xl sm:text-4xl md:text-4xl xl:text-5xl'>
-            Projects & More 
-        </h1> 
+        <h1 className='font-JetBrains mx-auto text-center w-fit text-white border-b-8 border-secondaryColor rounded-lg mb-8 ml-auto text-2xl sm:text-4xl md:text-4xl xl:text-5xl'>
+          Projects & More
+        </h1>
         <h1 className='font-JetBrains mx-auto text-center w-fit text-white border-b-4 border-secondaryColor rounded-lg mb-4 ml-auto text-xl sm:text-xl md:text-2xl xl:text-3xl'>
-            Web Development
-        </h1> 
+          Web Development
+        </h1>
         <h1 className='font-JetBrains mx-auto text-center w-fit text-white border-secondaryColor rounded-lg mb-4 ml-auto text-4xl sm:text-4xl md:text-4xl xl:text-5xl'>
-        🌐 
-        </h1> 
+          🌐
+        </h1>
         <div className='grid'>
           <CardProject
             title='Crypto Control'
-            description=' Control de criptomonedas, con la posibilidad de 
-            calcular precios de mercado usando un API externa, 
-            la cual se actualiza y muestra los precios en tiempo real.'
-            tags={['React','Vite','TailwindCSS']}
+            description='Cryptocurrency control, with the possibility of calculating market prices using an external API, which updates and displays real-time prices.'
+            tags={['React', 'Vite', 'TailwindCSS']}
             imgPath='img/Control_Crypto_SM.png'
             linkGithub='https://github.com/Lelmats/Crypto_Info-react-vite'
           />
           <CardProject
-            title='Control Gastos'
-            description='Control de gastos personales, con la posibilidad de agregar, editar y eliminar gastos, utilizando LocalStorage para almacenar los datos y mantenerlos en el navegador. '
-            tags={['React','Vite','TailwindCSS']}
+            title='Expense Tracker'
+            description='Personal expense tracker, with the ability to add, edit, and delete expenses, using LocalStorage to store the data and keep it in the browser.'
+            tags={['React', 'Vite', 'TailwindCSS']}
             imgPath='img/Control_Gastos_SM.png'
             linkGithub='https://github.com/Lelmats/Control_Gastos-react-vite'
           />
           <CardProject
-            title='Formulario RestAPI'
-            description='Formulario que consume una RestAPI, con la posibilidad de agregar, editar y eliminar datos. '
-            tags={['React','Vite','TailwindCSS']}
+            title='RestAPI Form'
+            description='Form that consumes a RestAPI, with the ability to add, edit, and delete data.'
+            tags={['React', 'Vite', 'TailwindCSS']}
             imgPath='img/Form_RestAPI_SM.png'
             linkGithub='https://github.com/Lelmats/Form_RestAPI-react-vite'
           />
         </div>
-        <h1 className='font-JetBrains mx-auto mt-5 text-center w-fit text-white border-b-4 border-secondaryColor rounded-lg mb-12  ml-auto text-xl sm:text-xl md:text-2xl xl:text-3xl'>
-            Game Development
-        </h1> 
-          <CardProject
-            title='SpookyJamULSA - KidBox'
-            description='Theme of the Jam: "Quarantine". A boy appears on a desolate street, amidst his confusion within a completely strange world and 
-            piqued by curiosity, he will make the decision to discover what happened to the entire world, 
-            avoiding the silhouettes that stalk him during his trip, maintaining a stealth which will help him advance by finding 
-            clues with which to calm his curiosity, 
-            in order to find an unexpected ending...'
-            tags={['Unity','C#', 'Photoshop']}
-            imgPath='img/Kidbox.png'
+        <h1 className='font-JetBrains mx-auto mt-5 text-center w-fit text-white border-b-4 border-secondaryColor rounded-lg mb-12 ml-auto text-xl sm:text-xl md:text-2xl xl:text-3xl'>
+          Game Development
+        </h1>
+        <CardProject
+          title='SpookyJamULSA - KidBox'
+          description='Theme of the Jam: "Quarantine". A boy appears on a desolate street, amidst his confusion within a completely strange world and piqued by curiosity, he will make the decision to discover what happened to the entire world, avoiding the silhouettes that stalk him during his trip, maintaining a stealth which will help him advance by finding clues with which to calm his curiosity, in order to find an unexpected ending...'
+          tags={['Unity', 'C#', 'Photoshop']}
+          imgPath='img/Kidbox.png'
             // linkGithub='https://github.com/Lelmats/Form_RestAPI-react-vite'
             itchLink='https://lelmats.itch.io/kidbox'
           />
@@ -174,7 +168,9 @@ function App() {
           />
         <CardProject
             title='WasteShop'
-            description='A VR videogame where you can sell items, with a deploy database leaderboard, in a wasteland'
+            description='This immersive virtual reality video game is set in a post-apocalyptic wasteland. 
+            In this game, players take on the role of a trader in a small store in the middle of the wasteland, 
+            selling valuable items and resources, having a time and score, become the manager of the store climbing the real Leaderboard.'
             tags={['Unity','C#', 'VR']}
             imgPath='img/WasteShopBackLogo.png'
             linkGithub='https://github.com/Lelmats/WasteShop/tree/main'
