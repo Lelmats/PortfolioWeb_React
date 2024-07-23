@@ -36,8 +36,8 @@ function App() {
             </p>
         </div>
         <div className='flex justify-end'>
-          {/* <img className='object-cover h-[35vh] md:h-[65vh] sm:h-[55vh] min-w-fit hover:scale-105 transition-transform duration-500 ' src="img\MaxCharacter.png" alt="" /> */}
-          <img className='absolute max-sm:w-[17rem] w-[25rem] sm:w-[25rem] xl:w-[30rem] object-contain origin-center transition-all animate-spin-slow-2' src="img\MaxCharacter.png" alt="" />
+          <img className='object-cover h-[35vh] md:h-[65vh] sm:h-[55vh] min-w-fit hover:scale-105 transition-transform duration-500 ' src="img\MaxCharacter.png" alt="" />
+          {/* <img className='absolute max-sm:w-[17rem] w-[25rem] sm:w-[25rem] xl:w-[30rem] object-contain origin-center transition-all animate-spin-slow-2' src="img\MaxCharacter.png" alt="" /> */}
         </div>
       </div>
     </div>
