@@ -41,6 +41,7 @@ function App() {
         </div>
       </div>
     </div>
+
     {/* Section 2 - About Me/Technologies */}
     <div className="flex bg-backgroundPrimary p-10 xl:p-28 items-center " style={backgroundStyle} id='AboutMe'>
       <div className='absolute left-[45%] mb-26 lg:left-[45%] xl:left-[42%] z-49' >
@@ -53,7 +54,8 @@ function App() {
           </h1>
           <p className='font-RobotoSlab text-white text-md min-[600px]:text-lg sm:text-lg md:text-xl xl:text-xl 2xl:w-3/4 ml-auto text-balance text-right max-md:text-center'>
             I'm a Software Developer, with a strong background
-            in Front-End development and some experience in Back-End.
+            in <b>Front-End</b> development and some experience in <b>Back-End</b>, 
+            also experience in game development with <b>Unity</b> , 
             Currently I'm deepening my knowledge in data structures
             and constantly sharpening my skills.
             I have a passion for learning new technologies,
