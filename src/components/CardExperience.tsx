@@ -16,8 +16,8 @@ export const CardExperience = ({ title, company, date, imgPath }: CardExperience
                 <div className='md:col-span-1'>
                     <img src={imgPath} alt="MediaAerea" className='max-[640px]:w-[18%] max-w-[100px] mx-auto shadow-md'/>
                 </div>
-                <div className='sm:col-span-4 ml-6'>
-                    <h1 className='text-white text-lg md:text-xl py-2 font-bold'>{title}</h1>
+                <div className='sm:col-span-4 sm:ml-6 max-sm:px-3'>
+                    <h1 className='text-white text-lg md:text-xl py-2 font-bold '>{title}</h1>
                     <h2 className='text-white text-base md:text-lg py-2'>{company}</h2>
                     <p className='text-white text-sm md:text-base py-2 font-thin'>{date}</p>
                 </div>
