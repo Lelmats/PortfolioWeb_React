@@ -4,5 +4,7 @@ import {
     Dropdown,
     initTWE,
   } from "tw-elements";
-  
-  initTWE({ Collapse, Dropdown });
+
+document.addEventListener('DOMContentLoaded', function() {
+    initTWE({ Collapse, Dropdown });
+});
