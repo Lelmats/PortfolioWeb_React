@@ -89,13 +89,13 @@ function App() {
         </div>
         <div className="text-center mb-5">
           <CardExperience
-          title='Frontend Developer'
+          title='FullStack Developer'
           company='MEDIAEREA / Drone Solutions & Monitoring Technologies'
           date='Mar 2022 - Jul 2022'
           imgPath='img/MAIcon.jpeg'
           />
           <CardExperience
-          title='Frontend Developer - Contract'
+          title='Intern FrontEnd Developer '
           company='MEDIAEREA / Drone Solutions & Monitoring Technologies'
           date='Jan 2021 - Jun 2021'
           imgPath='img/MAIcon.jpeg'
