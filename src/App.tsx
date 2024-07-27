@@ -17,7 +17,7 @@ function App() {
     {/* Section 1 - Me */}
     <Navbar/>
     <div className="flex bg-backgroundPrimary items-center sm:pt-20 h-dvh" style={backgroundStyle} id='Home'>
-      <div className='font-JetBrains grid grid-cols-1 md:grid-cols-2 grid-flow-row sm:mx-28 xl:mx-64 w-screen mx-16 '>
+      <div className='font-JetBrains grid grid-cols-1 md:grid-cols-2 grid-flow-row sm:mx-26 xl:mx-64 w-screen mx-16 '>
         <div className="">
             <h1 className='sm:text-5xl md:text-5xl xl:text-7xl text-4xl text-left text-white h-fit'> 
               Hi!,  
@@ -37,7 +37,7 @@ function App() {
         </div>
         <div className='flex justify-end'>
           {/* <img className='object-cover h-[35vh] min-h-fit sm:h-[55vh] md:h-[65vh]  min-w-fit hover:scale-105 transition-transform duration-500' src="img\MaxCharacter.png" alt="" /> */}
-          <img className='object-cover absolute max-sm:w-[17rem] w-[25rem] sm:w-[25rem] xl:w-[30rem] hover:scale-105 transition-transform duration-500' src="img\MaxCharacter.png" alt="" />
+          <img className='object-cover max-sm:w-[17rem] w-[25rem] sm:w-[30rem] xl:w-[30rem] hover:scale-105 transition-transform duration-500' src="img\MaxCharacter.png" alt="" />
         </div>
       </div>
     </div>
