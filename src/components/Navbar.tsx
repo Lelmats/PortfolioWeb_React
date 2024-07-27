@@ -13,7 +13,7 @@ function classNames(...classes: string[]) {
 
 export function Navbar() {
 return (
-  <Disclosure as="nav" className="dark:bg-gray-600 bg-gray-100 font-JetBrains fixed w-screen z-50 ">
+  <Disclosure as="nav" className="dark:bg-gray-600 bg-gray-200 font-JetBrains fixed w-screen z-50 ">
     <div className="mx-auto max-w-[90%] sm:px-6 lg:px-8 ">
       <div className="relative flex h-14 items-center justify-between">
         <div 
@@ -24,12 +24,12 @@ return (
           <DisclosureButton 
 
             className="group relative inline-flex items-center justify-center 
-            rounded-md p-2 text-gray-400  hover:text-white 
+            rounded-md p-2 text-black/60 dark:text-white/60 hover:text-black/60 hover:dark:text-white/60
             focus:outline-none "
             >
             <span className="absolute -inset-0.5" />
             <span className="sr-only ">Open main menu</span>
-            <Bars3Icon aria-hidden="true" className="block h-6 w-6 group-data-[open]:hidden" />
+            <Bars3Icon aria-hidden="true" className="block  h-6 w-6 group-data-[open]:hidden" />
             <XMarkIcon aria-hidden="true" className="hidden h-6 w-6 group-data-[open]:block" />
           </DisclosureButton>
 
@@ -94,8 +94,9 @@ return (
             href={item.href}
             aria-current={item.current ? 'page' : undefined}
             className={classNames(
-              item.current ? ' text-white' : 'text-gray-300 hover:text-white text-black/60  hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/80 dark:hover:text-white/90 dark:focus:text-white/90 dark:active:text-white/90',
+              item.current ? ' text-black/60 dark:text-white/80' : 'motion-reduce:transition-none text-black/60 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 dark:text-white/60 dark:hover:text-white/90 dark:focus:text-white/90 dark:active:text-white/90',
               'block rounded-md px-3 py-2 text-base font-medium',
+
             )}
           >
             {item.name}
