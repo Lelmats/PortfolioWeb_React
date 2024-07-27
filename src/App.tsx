@@ -43,7 +43,7 @@ function App() {
     </div>
 
     {/* Section 2 - About Me/Technologies */}
-    <div className="flex bg-backgroundPrimary p-10 xl:p-28 items-center h-screen" style={backgroundStyle} id='AboutMe'>
+    <div className="flex bg-backgroundPrimary p-10 xl:p-28  h-screen" style={backgroundStyle} id='AboutMe'>
       <div className='absolute left-[45%] mb-26 lg:left-[45%] xl:left-[42%] z-49' >
         <img src="img/ArrowW.png" alt="" className='w-[150px] xl:w-[200px] 2xl:w-[250px] rotate-[-100deg] max-[1000px]:hidden '/>
       </div>
