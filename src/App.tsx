@@ -16,7 +16,7 @@ function App() {
     <>
     {/* Section 1 - Me */}
     <Navbar/>
-    <div className="flex bg-backgroundPrimary items-center sm:pt-20 h-dvh" style={backgroundStyle} id='Home'>
+    <div className="flex bg-backgroundPrimary items-center sm:pt-20 h-screen" style={backgroundStyle} id='Home'>
       <div className='font-JetBrains grid grid-cols-1 md:grid-cols-2 grid-flow-row w-screen mx-16 sm:mx-26 lg:mx-48 xl:mx-52'>
         <div className="">
             <h1 className='sm:text-5xl md:text-5xl xl:text-7xl text-4xl text-left text-white h-fit'> 
