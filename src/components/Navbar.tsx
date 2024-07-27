@@ -13,7 +13,7 @@ function classNames(...classes: string[]) {
 
 export function Navbar() {
 return (
-  <Disclosure as="nav" className="bg-gray-600 font-JetBrains fixed w-screen z-50 ">
+  <Disclosure as="nav" className="dark:bg-gray-600 bg-gray-100 font-JetBrains fixed w-screen z-50 ">
     <div className="mx-auto max-w-[90%]  sm:px-6 lg:px-8 ">
       <div className="relative flex h-14 items-center justify-between">
         <div 
