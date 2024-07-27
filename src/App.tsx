@@ -48,7 +48,7 @@ function App() {
         <img src="img/ArrowW.png" alt="" className='w-[200px] xl:w-[200px] 2xl:w-[250px] rotate-[-100deg] max-lg:hidden '/>
       </div>
       <div className='md:grid md:grid-flow-row'>
-        <div className='mb-20 md:grid md:grid-flow-col '>
+        <div className='mb-20 md:grid md:grid-flow-col'>
           <h1 className='font-RobotoSlab text-white rounded-lg mr-10 my-4 border-b-8 border-secondaryColor text-3xl sm:text-4xl md:text-4xl xl:text-5xl w-fit h-fit '>
             About Me 
           </h1>
@@ -64,9 +64,9 @@ function App() {
         </div>
         <div className='lg:grid lg:grid-flow-col'>
           <div className='flex items-center order-last ml-auto 2xl:mx-auto'>
-            <div className='sm:mb-5 max-md:mx-auto '>
+            <div className='sm:mb-5 max-xl:mx-auto '>
               <h1 className='font-RobotoSlab mx-auto w-fit text-white border-b-8 border-secondaryColor rounded-lg mb-5 mt-5 md:mb-5 ml-auto text-2xl sm:text-4xl md:text-4xl xl:text-5xl '>Technologies & Tools</h1> 
-              <h2 className='font-RobotoCondensed text-white mb-6 ml-auto text-xl sm:text-3xl md:text-xl xl:text-xl '>The ones i am more confortable with:</h2>
+              <h2 className='font-RobotoCondensed text-white mb-6 ml-auto text-xl sm:text-2xl md:text-xl xl:text-xl '>The ones i am more confortable with:</h2>
               <div className='flex mx-auto items-center justify-center'></div>
             </div>
           </div>
