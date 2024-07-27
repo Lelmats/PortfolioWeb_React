@@ -43,7 +43,7 @@ function App() {
     </div>
 
     {/* Section 2 - About Me/Technologies */}
-    <div className="flex bg-backgroundPrimary p-10 xl:p-28  h-screen" style={backgroundStyle} id='AboutMe'>
+    <div className="flex bg-backgroundPrimary p-10 xl:p-28  min-h-dvh" style={backgroundStyle} id='AboutMe'>
       <div className='absolute left-[45%] mb-26 lg:left-[45%] xl:left-[42%] z-49' >
         <img src="img/ArrowW.png" alt="" className='w-[150px] xl:w-[200px] 2xl:w-[250px] rotate-[-100deg] max-[1000px]:hidden '/>
       </div>
@@ -72,7 +72,7 @@ function App() {
           </div>
           <div className='flex items-center justify-center m-44 max-sm:my-36 max-md:my-48 max-sm:mx-auto '>
               {/* <img src="/img/Tech_Icons.png" alt="" className='sm:mt-0 max-[600px]:h-[16rem] h-[22rem] sm:h-[25rem] xl:h-[30rem] object-contain mx-auto origin-center transition-all animate-spin-slow  '/> */}
-              <img src="/img/Exterior.png" alt="" className='absolute max-sm:w-[17rem] w-[25rem] sm:w-[25rem] xl:w-[30rem] object-contain origin-center transition-all animate-spin-slow-2'/>
+              <img src="/img/Exterior.png" alt="" className='absolute max-sm:w-[17rem] w-[25rem] sm:w-[25rem] xl:w-[30rem]  object-contain origin-center transition-all animate-spin-slow-2'/>
               <img src="/img/Middle.png" alt="" className='absolute max-sm:w-[11.5rem] w-[17rem] sm:w-[17rem] xl:w-[20.5rem] object-contain origin-center transition-all animate-spin-slow-1'/>
               <img src="/img/Inner.png" alt="" className='absolute max-sm:w-[6rem] w-[10rem] sm:w-[9rem] xl:w-[11rem] object-contain origin-center transition-all animate-spin-slow'/>
           </div>
