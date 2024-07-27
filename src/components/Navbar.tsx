@@ -14,7 +14,7 @@ function classNames(...classes: string[]) {
 export function Navbar() {
 return (
   <Disclosure as="nav" className="dark:bg-gray-600 bg-gray-100 font-JetBrains fixed w-screen z-50 ">
-    <div className="mx-auto max-w-[90%]  sm:px-6 lg:px-8 ">
+    <div className="mx-auto max-w-[90%] sm:px-6 lg:px-8 ">
       <div className="relative flex h-14 items-center justify-between">
         <div 
         className="absolute inset-y-0 left-0 flex items-center sm:hidden "
@@ -43,7 +43,9 @@ return (
                   key={item.name}
                   href={item.href}
                   aria-current={item.current ? 'page' : undefined}
-                  className='text-black/60  hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2'
+                  className='text-black/60 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/90 dark:focus:text-white/90 dark:active:text-white/90 lg:px-2
+                  transition duration-300
+                  '
                 >
                   {item.name}
                 </a>
@@ -56,9 +58,10 @@ return (
           <ul
             className="list-style-none me-auto flex ps-0 lg:flex-row  font-JetBrains "
             data-twe-navbar-nav-ref>
-              <li className="mr-2 sm:mr-2 lg:mb-0" data-twe-nav-item-ref>
+              <li className="mr-2 sm:mr-2 lg:mb-0 " data-twe-nav-item-ref>
                 <a
-                  className="text-black/60  hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-1"
+                  className="text-black/60  hover:text-black/80 hover:ease-in-out transition duration-300 focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/90 dark:focus:text-white/90 dark:active:text-white/90 lg:px-1
+                  "
                   href="https://www.linkedin.com/in/max-alejandro-rivera-higuera-8484b9208/"
                   data-twe-nav-link-ref
                   ><i className="fa-brands fa-linkedin fa-xl" ></i></a
@@ -66,7 +69,7 @@ return (
               </li>
               <li className="mr-2 lg:mr-0 lg:mb-0 " data-twe-nav-item-ref>
                 <a
-                  className="text-black/60  hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-1"
+                  className="text-black/60  hover:text-black/80 hover:ease-in-out transition duration-300 focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/90 dark:focus:text-white/90 dark:active:text-white/90 lg:px-1"
                   href="https://github.com/Lelmats"
                   data-twe-nav-link-ref
                   ><i className="fa-brands fa-github fa-xl"></i></a
@@ -91,7 +94,7 @@ return (
             href={item.href}
             aria-current={item.current ? 'page' : undefined}
             className={classNames(
-              item.current ? ' text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white text-black/60  hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80',
+              item.current ? ' text-white' : 'text-gray-300 hover:text-white text-black/60  hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/80 dark:hover:text-white/90 dark:focus:text-white/90 dark:active:text-white/90',
               'block rounded-md px-3 py-2 text-base font-medium',
             )}
           >
