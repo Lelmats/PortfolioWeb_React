@@ -24,7 +24,7 @@ return (
           <DisclosureButton 
 
             className="group relative inline-flex items-center justify-center 
-            rounded-md p-2 text-black/60 dark:text-white hover:text-black/60 hover:dark:text-white
+            rounded-md p-2 text-black/60 dark:text-white hover:text-black/60 hover:dark:text-white/60
             focus:outline-none "
             >
             <span className="absolute -inset-0.5" />
