@@ -66,12 +66,11 @@ function App() {
             <div className='flex items-center order-last ml-auto 2xl:mx-auto'>
               <div className='sm:mb-5 max-xl:mx-auto '>
                 <h1 className='font-RobotoSlab mx-auto w-fit text-white border-b-8 border-secondaryColor rounded-lg mb-5 mt-5 md:mb-5 ml-auto text-2xl sm:text-4xl md:text-4xl xl:text-5xl '>Technologies & Tools</h1> 
-                <h2 className='font-RobotoCondensed text-white mb-6 ml-auto text-xl sm:text-2xl md:text-xl xl:text-xl '>The ones i am more confortable with:</h2>
+                <h2 className='font-RobotoCondensed text-white mb-6 ml-auto text-xl sm:text-2xl md:text-xl xl:text-xl max-lg:text-center'>The ones i am more confortable with:</h2>
                 <div className='flex mx-auto items-center justify-center'></div>
               </div>
             </div>
             <div className='flex items-center justify-center m-44 max-sm:my-36 max-md:my-48 max-sm:mx-auto h-fit'>
-                {/* <img src="/img/Tech_Icons.png" alt="" className='sm:mt-0 max-[600px]:h-[16rem] h-[22rem] sm:h-[25rem] xl:h-[30rem] object-contain mx-auto origin-center transition-all animate-spin-slow  '/> */}
                 <img src="/img/Exterior.png" alt="" className='absolute max-sm:w-[16rem] w-[25rem] sm:w-[25rem] xl:w-[30rem]  object-contain origin-center transition-all animate-spin-slow-2'/>
                 <img src="/img/Middle.png" alt="" className='absolute max-sm:w-[10.5rem] w-[17rem] sm:w-[17rem] xl:w-[20.5rem] object-contain origin-center transition-all animate-spin-slow-1'/>
                 <img src="/img/Inner.png" alt="" className='absolute max-sm:w-[5rem] w-[10rem] sm:w-[9rem] xl:w-[11rem] object-contain origin-center transition-all animate-spin-slow'/>
