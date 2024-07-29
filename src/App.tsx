@@ -182,6 +182,8 @@ function App() {
             />
         </div>
       </div>
+        
+      {/* Section 5 - Contact */}
       <footer className='bg-[#2b3747] h-10 w-vw'>
         <div className='flex justify-center items-center h-full'>
           <p className='text-white font-RobotoSlab font-bold text-center text-xs'>Made with React & Tailwind - Max Rivera - 2024</p>

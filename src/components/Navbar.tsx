@@ -17,7 +17,7 @@ return (
     <div className="mx-auto max-w-[90%] sm:px-6 lg:px-8 ">
       <div className="relative flex h-14 items-center justify-between">
         <div 
-        className="absolute inset-y-0 left-0 flex items-center sm:hidden "
+          className="absolute inset-y-0 left-0 flex items-center sm:hidden" 
         >
 
           {/* Mobile menu button*/}
@@ -34,8 +34,7 @@ return (
           </DisclosureButton>
 
         </div>
-        
-        <div className="flex flex-1  items-center justify-center sm:items-stretch sm:justify-start">
+        <div className="flex flex-1  items-center justify-center sm:items-stretch sm:justify-start" >
           <div className="hidden sm:ml-6 sm:block">
             <div className="flex space-x-4 ">
               {navigation.map((item) => (
@@ -61,9 +60,9 @@ return (
               <li className="mr-2 sm:mr-2 lg:mb-0 " data-twe-nav-item-ref>
                 <a
                   className="text-black/60  hover:text-black/80 hover:ease-in-out transition duration-300
-                   focus:text-black/80 active:text-black/80 motion-reduce:transition-none
-                    dark:text-white dark:hover:text-white/60 dark:focus:text-white/60 dark:active:text-white/60 lg:px-1
-                  "
+                  focus:text-black/80 active:text-black/80 motion-reduce:transition-none
+                  dark:text-white dark:hover:text-white/60 dark:focus:text-white/60 dark:active:text-white/60 lg:px-1"
+                  aria-label='LinkedIn'
                   href="https://www.linkedin.com/in/max-alejandro-rivera-higuera-8484b9208/"
                   data-twe-nav-link-ref
                   ><i className="fa-brands fa-linkedin fa-xl" ></i></a
@@ -74,6 +73,7 @@ return (
                   className="text-black/60  hover:text-black/80 hover:ease-in-out transition duration-300
                    focus:text-black/80 active:text-black/80 motion-reduce:transition-none
                     dark:text-white dark:hover:text-white/60 dark:focus:text-white/60 dark:active:text-white/60 lg:px-1"
+                  aria-label='GitHub'
                   href="https://github.com/Lelmats"
                   data-twe-nav-link-ref
                   ><i className="fa-brands fa-github fa-xl"></i></a
