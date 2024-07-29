@@ -24,7 +24,7 @@ return (
           <DisclosureButton 
 
             className="group relative inline-flex items-center justify-center 
-            rounded-md p-2 text-black/60 dark:text-white/60 hover:text-black/60 hover:dark:text-white/60
+            rounded-md p-2 text-black/60 dark:text-white hover:text-black/60 hover:dark:text-white
             focus:outline-none "
             >
             <span className="absolute -inset-0.5" />
@@ -60,7 +60,9 @@ return (
             data-twe-navbar-nav-ref>
               <li className="mr-2 sm:mr-2 lg:mb-0 " data-twe-nav-item-ref>
                 <a
-                  className="text-black/60  hover:text-black/80 hover:ease-in-out transition duration-300 focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/90 dark:focus:text-white/90 dark:active:text-white/90 lg:px-1
+                  className="text-black/60  hover:text-black/80 hover:ease-in-out transition duration-300
+                   focus:text-black/80 active:text-black/80 motion-reduce:transition-none
+                    dark:text-white/60 dark:hover:text-white/90 dark:focus:text-white/90 dark:active:text-white/90 lg:px-1
                   "
                   href="https://www.linkedin.com/in/max-alejandro-rivera-higuera-8484b9208/"
                   data-twe-nav-link-ref
@@ -69,7 +71,9 @@ return (
               </li>
               <li className="mr-2 lg:mr-0 lg:mb-0 " data-twe-nav-item-ref>
                 <a
-                  className="text-black/60  hover:text-black/80 hover:ease-in-out transition duration-300 focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/90 dark:focus:text-white/90 dark:active:text-white/90 lg:px-1"
+                  className="text-black/60  hover:text-black/80 hover:ease-in-out transition duration-300
+                   focus:text-black/80 active:text-black/80 motion-reduce:transition-none
+                    dark:text-white/60 dark:hover:text-white/90 dark:focus:text-white/90 dark:active:text-white/90 lg:px-1"
                   href="https://github.com/Lelmats"
                   data-twe-nav-link-ref
                   ><i className="fa-brands fa-github fa-xl"></i></a
