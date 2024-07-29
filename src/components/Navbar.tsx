@@ -1,5 +1,6 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { useTranslation } from 'react-i18next'
 
 const navigation = [
   { name: 'Hello!', href: '#Home', current: true },
@@ -12,6 +13,8 @@ function classNames(...classes: string[]) {
 }
 
 export function Navbar() {
+const { t } = useTranslation();
+
 return (
   <Disclosure as="nav" className="dark:bg-gray-600 bg-gray-200 font-JetBrains fixed w-screen z-50 ">
     <div className="mx-auto max-w-[90%] sm:px-6 lg:px-8 ">
@@ -46,7 +49,7 @@ return (
                   transition duration-300
                   '
                 >
-                  {item.name}
+                  {t(item.name)}
                 </a>
               ))}
             </div>
@@ -103,7 +106,7 @@ return (
 
             )}
           >
-            {item.name}
+            {t(item.name)}
           </DisclosureButton>
         ))}
       </div>

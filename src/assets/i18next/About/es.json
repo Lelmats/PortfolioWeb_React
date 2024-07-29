@@ -1,0 +1,18 @@
+{
+	"hi" : "Hola!",
+	"my" : "Mi",
+	"name" : "Nombre es",
+	"softFull" : "Un Desarrollador de Software / Fullstack",
+	"aboutme" : "Sobre mí",
+	"aboutmeDes" : "Soy un Desarrollador de Software, con una sólida experiencia en desarrollo Front-End y algo de experiencia en Back-End, también tengo experiencia en desarrollo de juegos con Unity. Actualmente estoy profundizando mis conocimientos en estructuras de datos y mejorando constantemente mis habilidades. Tengo pasión por aprender nuevas tecnologías y estoy comprometido con la mejora continua!(: 🚀.",
+	"techTools" : "Tecnologías y Herramientas",
+	"techToolsDes" : "Con las que me siento más cómodo utilizando:",
+	"experience" : "Experiencia",
+	"projectsmore" : "Proyectos y Más",
+	"gameDev" : "Desarrollo VideoJuegos",
+	"Hello!": "¡Hola!",
+	"About Me": "Sobre mí",
+	"Experience": "Experiencia",
+	"Projects": "Proyectos"
+
+}

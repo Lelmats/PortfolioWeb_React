@@ -3,6 +3,7 @@ import CSS from "csstype";
 import Navbar from './components/Navbar';
 import CardProject from './components/CardProject';
 import CardExperience from './components/CardExperience';
+import { useTranslation } from 'react-i18next';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     backgroundSize: "contain",
   };
 
+  const { t } = useTranslation();
   return (
     <>
       {/* Section 1 - Me */}
@@ -20,19 +22,19 @@ function App() {
         <div className='font-JetBrains grid grid-cols-1 md:grid-cols-2 grid-flow-row w-screen mx-16 sm:mx-26 lg:mx-48 xl:mx-52'>
           <div className="">
               <h1 className='sm:text-5xl md:text-5xl xl:text-7xl text-4xl text-left text-white h-fit'> 
-                Hi!,  
+                {t('hi')}
               </h1>
               <h1 className='sm:text-5xl md:text-5xl xl:text-7xl text-4xl text-left text-white h-fit'> 
-                My 
+                {t('my')}
               </h1>
               <h1 className='sm:text-5xl md:text-5xl xl:text-7xl text-4xl text-left text-white h-fit'> 
-                Name is 
+                {t('name')}
               </h1>
               <h1 className='sm:text-5xl md:text-5xl xl:text-7xl text-4xl line-1 anim-typewriter text-left text-white mb-3'>
                 Max Rivera
               </h1>
               <p className='font-JetBrains text-left text-white h-fit'> 
-                A Software / Fullstack Developer
+                {t('softFull')}
               </p>
           </div>
           <div className='flex justify-end'>
@@ -50,23 +52,25 @@ function App() {
         <div className='md:grid md:grid-flow-row'>
           <div className='mb-20 md:grid md:grid-flow-col'>
             <h1 className='font-RobotoSlab text-white rounded-lg mr-10 my-4 border-b-8 border-secondaryColor text-3xl sm:text-4xl md:text-4xl xl:text-5xl w-fit h-fit '>
-              About Me 
+              {t('aboutme')} 
             </h1>
             <p className='font-RobotoSlab text-white text-md min-[600px]:text-lg sm:text-lg md:text-xl xl:text-xl 2xl:w-3/4 ml-auto text-balance text-right max-md:text-center'>
-              I'm a Software Developer, with a strong background
+              {t('aboutmeDes')}
+              {/* I'm a Software Developer, with a strong background
               in <b>Front-End</b> development and some experience in <b>Back-End</b>, 
               also experience in game development with <b>Unity</b> , 
               Currently I'm deepening my knowledge in data structures
               and constantly sharpening my skills.
               I have a passion for learning new technologies,
-              and I am committed to continuous improvement 🚀.
+              and I am committed to continuous improvement 🚀. */}
             </p>
+            
           </div>
           <div className='lg:grid lg:grid-flow-col'>
             <div className='flex items-center order-last ml-auto 2xl:mx-auto'>
               <div className='sm:mb-5 max-xl:mx-auto '>
-                <h1 className='font-RobotoSlab mx-auto w-fit text-white border-b-8 border-secondaryColor rounded-lg mb-5 mt-5 md:mb-5 ml-auto text-2xl sm:text-4xl md:text-4xl xl:text-5xl '>Technologies & Tools</h1> 
-                <h2 className='font-RobotoCondensed text-white mb-6 ml-auto text-xl sm:text-2xl md:text-xl xl:text-xl max-lg:text-center'>The ones i am more confortable with:</h2>
+                <h1 className='font-RobotoSlab mx-auto w-fit text-white border-b-8 border-secondaryColor rounded-lg mb-5 mt-5 md:mb-5 ml-auto text-2xl sm:text-4xl md:text-4xl xl:text-5xl max-sm:text-center'>{t('techTools')}</h1> 
+                <h2 className='font-RobotoCondensed text-white mb-6 ml-auto text-xl sm:text-2xl md:text-xl xl:text-xl max-lg:text-center'>{t('techToolsDes')}</h2>
                 <div className='flex mx-auto items-center justify-center'></div>
               </div>
             </div>
@@ -84,7 +88,7 @@ function App() {
         <div className='mx-auto sm:w-2/3 '>
           <div className=''>
             <h1 className='mx-auto w-fit text-white border-b-8 border-secondaryColor rounded-lg mb-5 md:mb-5 ml-auto text-2xl sm:text-4xl md:text-4xl xl:text-5xl mt-5'>
-              Experience
+              {t('experience')}
             </h1> 
           </div>
           <div className="text-center mb-5">
@@ -117,7 +121,7 @@ function App() {
         </div>
         <div className='mx-auto'>
           <h1 className='font-JetBrains mx-auto text-center w-fit text-white border-b-8 border-secondaryColor rounded-lg mb-8 ml-auto text-2xl sm:text-4xl md:text-4xl xl:text-5xl'>
-            Projects & More
+            {t('projectsmore')}
           </h1>
           <h1 className='font-JetBrains mx-auto text-center w-fit text-white border-b-4 border-secondaryColor rounded-lg mb-4 ml-auto text-xl sm:text-xl md:text-2xl xl:text-3xl'>
             Web Development
@@ -149,7 +153,7 @@ function App() {
             />
           </div>
           <h1 className='font-JetBrains mx-auto mt-5 text-center w-fit text-white border-b-4 border-secondaryColor rounded-lg mb-12 ml-auto text-xl sm:text-xl md:text-2xl xl:text-3xl'>
-            Game Development
+            {t('gameDev')}
           </h1>
           <CardProject
             title='SpookyJamULSA - KidBox'
