@@ -62,7 +62,7 @@ return (
                 <a
                   className="text-black/60  hover:text-black/80 hover:ease-in-out transition duration-300
                    focus:text-black/80 active:text-black/80 motion-reduce:transition-none
-                    dark:text-white dark:hover:text-white/90 dark:focus:text-white/90 dark:active:text-white/90 lg:px-1
+                    dark:text-white dark:hover:text-white/60 dark:focus:text-white/60 dark:active:text-white/60 lg:px-1
                   "
                   href="https://www.linkedin.com/in/max-alejandro-rivera-higuera-8484b9208/"
                   data-twe-nav-link-ref
@@ -73,7 +73,7 @@ return (
                 <a
                   className="text-black/60  hover:text-black/80 hover:ease-in-out transition duration-300
                    focus:text-black/80 active:text-black/80 motion-reduce:transition-none
-                    dark:text-white dark:hover:text-white/90 dark:focus:text-white/90 dark:active:text-white/90 lg:px-1"
+                    dark:text-white dark:hover:text-white/60 dark:focus:text-white/60 dark:active:text-white/60 lg:px-1"
                   href="https://github.com/Lelmats"
                   data-twe-nav-link-ref
                   ><i className="fa-brands fa-github fa-xl"></i></a
