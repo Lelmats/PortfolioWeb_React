@@ -98,7 +98,7 @@ return (
             href={item.href}
             aria-current={item.current ? 'page' : undefined}
             className={classNames(
-              item.current ? ' text-black/60 dark:text-white/80' : 'motion-reduce:transition-none text-black/60 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 dark:text-white/60 dark:hover:text-white/90 dark:focus:text-white/90 dark:active:text-white/90',
+              item.current ? ' text-black/60 dark:text-white/80' : 'motion-reduce:transition-none text-black/60 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 dark:text-white dark:hover:text-white/60 dark:focus:text-white/60 dark:active:text-white/60',
               'block rounded-md px-3 py-2 text-base font-medium',
 
             )}
