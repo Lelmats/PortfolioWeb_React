@@ -43,7 +43,7 @@ return (
                   key={item.name}
                   href={item.href}
                   aria-current={item.current ? 'page' : undefined}
-                  className='text-black/60 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/90 dark:focus:text-white/90 dark:active:text-white/90 lg:px-2
+                  className='text-black/60 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white dark:hover:text-white/60 dark:focus:text-white/60 dark:active:text-white/60 lg:px-2
                   transition duration-300
                   '
                 >
@@ -62,7 +62,7 @@ return (
                 <a
                   className="text-black/60  hover:text-black/80 hover:ease-in-out transition duration-300
                    focus:text-black/80 active:text-black/80 motion-reduce:transition-none
-                    dark:text-white/60 dark:hover:text-white/90 dark:focus:text-white/90 dark:active:text-white/90 lg:px-1
+                    dark:text-white dark:hover:text-white/90 dark:focus:text-white/90 dark:active:text-white/90 lg:px-1
                   "
                   href="https://www.linkedin.com/in/max-alejandro-rivera-higuera-8484b9208/"
                   data-twe-nav-link-ref
@@ -73,7 +73,7 @@ return (
                 <a
                   className="text-black/60  hover:text-black/80 hover:ease-in-out transition duration-300
                    focus:text-black/80 active:text-black/80 motion-reduce:transition-none
-                    dark:text-white/60 dark:hover:text-white/90 dark:focus:text-white/90 dark:active:text-white/90 lg:px-1"
+                    dark:text-white dark:hover:text-white/90 dark:focus:text-white/90 dark:active:text-white/90 lg:px-1"
                   href="https://github.com/Lelmats"
                   data-twe-nav-link-ref
                   ><i className="fa-brands fa-github fa-xl"></i></a
@@ -98,7 +98,7 @@ return (
             href={item.href}
             aria-current={item.current ? 'page' : undefined}
             className={classNames(
-              item.current ? ' text-black/60 dark:text-white/80' : 'motion-reduce:transition-none text-black/60 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 dark:text-white dark:hover:text-white/60 dark:focus:text-white/60 dark:active:text-white/60',
+              item.current ? ' text-black/60 dark:text-white' : 'motion-reduce:transition-none text-black/60 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 dark:text-white dark:hover:text-white/60 dark:focus:text-white/60 dark:active:text-white/60',
               'block rounded-md px-3 py-2 text-base font-medium',
 
             )}
