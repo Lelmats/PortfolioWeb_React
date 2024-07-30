@@ -164,8 +164,8 @@ function App() {
               linkGithub='https://github.com/Lelmats/Form_RestAPI-react-vite'
             />
 
-            <h1 className='font-JetBrains mx-auto text-center w-fit text-white mb-8 ml-auto text-xl sm:text-3xl md:text-3xl xl:text-4xl'>
-            More Coming soon...
+            <h1 className='font-JetBrains mx-auto text-center w-fit text-white my-8 ml-auto text-xl sm:text-3xl md:text-3xl xl:text-4xl'>
+            More soon...
             </h1>
           </div>
           <br />
