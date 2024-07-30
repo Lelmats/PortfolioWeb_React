@@ -5,21 +5,24 @@
 	"softFull" : "Desarrollador de Software / Fullstack",
 	"aboutme" : "Sobre mí",
 	"aboutmeDes" : "Con gusto al desarrollo de software, con experiencia en desarrollo Front-End y algo de experiencia en Back-End, además de haber manejado el desarrollo de videojuegos con el motor Unity. Actualmente estoy profundizando mis conocimientos en estructuras de datos y mejorando constantemente mis habilidades. Tengo pasión por aprender nuevas tecnologías y estoy comprometido con la mejora continua!(: 🚀.",
-	"techTools" : "Tecnologías y Herramientas",
-	"techToolsDes" : "Con las que me siento más cómodo utilizando:",
 	"experience" : "Experiencia",
 	"projectsmore" : "Proyectos",
 	"gameDev" : "Desarrollo VideoJuegos",
 	"Hello!": "¡Hola!",
 	"About Me": "Sobre mí",
+	"techTools" : "Tecnologías y Herramientas",
+	"techToolsDes" : "Con las que me siento más cómodo utilizando:",
+
 	"Experience": "Experiencia",
 
 	"jobTitle_1": "Desarrollador FullStack",
 	"jobDate_1": "Marzo 2022 - Julio 2022",
 	"jobTitle_2": "Prácticas Desarrollador FrontEnd",
 	"jobDate_2": "Enero 2021 - Junio 2021",
-	"jobTitle_3": "Desarrollador Frontend - Freelancer",
+	"jobTitle_3": "Desarrollador FrontEnd - Freelancer",
 	"jobDate_3": "Enero 2021 - Junio 2021",
+	"jobTitle_4": "Desarrollador FullStack - Freelancer",
+	"jobDate_4": "Agosto 2022 - Presente",
 
 	"Projects": "Proyectos",
 

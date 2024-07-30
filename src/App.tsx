@@ -94,9 +94,9 @@ function App() {
           <div className="text-center mb-5">
             <CardExperience
             title={t('jobTitle_1')}
-            company='MEDIAEREA / Drone Solutions & Monitoring Technologies'
+            company='RUBISCO'
             date={t('jobDate_1')}
-            imgPath='img/MAIcon.jpeg'
+            imgPath='img/Rubisco.png'
             />
             <CardExperience
             title={t('jobTitle_2')}
@@ -106,9 +106,15 @@ function App() {
             />
             <CardExperience
             title={t('jobTitle_3')}
-            company='RUBISCO'
+            company='MEDIAEREA / Drone Solutions & Monitoring Technologies'
             date={t('jobDate_3')}
-            imgPath='img/Rubisco.png'
+            imgPath='img/MAIcon.jpeg'
+            />
+            <CardExperience
+            title={t('jobTitle_4')}
+            company='N/A'
+            date={t('jobDate_4')}
+            imgPath='img/smileFace.svg'
             />
           </div>
         </div>
