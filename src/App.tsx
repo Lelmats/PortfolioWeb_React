@@ -201,12 +201,12 @@ function App() {
       </div>
         
       {/* Section 5 - Contact */}
-      <footer className='bg-[#2b3747] h-fit w-vw'>
-        <div className='grid justify-center items-center h-full pt-4 pb-2'>
+      <footer className='bg-[#2b3747] h-fit w-vw py-3'>
+        <div className='grid justify-center items-center h-full pb-2'>
           <p className='text-white font-RobotoSlab font-bold text-center text-xs'> Max Rivera - 2024</p>
-          <span className='text-white font-RobotoSlab font-medium text-center text-xs'>Contact: maxalejandrorh@gmail.com </span>
+          <span className='text-white font-RobotoSlab font-medium text-center text-xs'>{t('contact')} maxalejandrorh@gmail.com </span>
         </div>
-        <div className="grid grid-flow-col justify-center items-center mx-auto pb-2">
+        <div className="grid grid-flow-col justify-center items-center mx-auto">
           <a
             className="text-black/60  hover:text-black/80 hover:ease-in-out transition duration-300
             focus:text-black/80 active:text-black/80 motion-reduce:transition-none

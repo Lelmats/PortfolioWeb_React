@@ -11,7 +11,7 @@
 	"Hello!": "¡Hola!",
 	"About Me": "Sobre mí",
 	"techTools" : "Tecnologías y Herramientas",
-	"techToolsDes" : "Con las que me siento más cómodo utilizando:",
+	"techToolsDes" : "Lo que he usado y algunos con los que me siento más cómodo:",
 
 	"Experience": "Experiencia",
 
@@ -45,6 +45,8 @@
 	"takeRootDes": "Tema del Jam: 'Raíces'. 3 niveles de plataformas, con un personaje principal un Honguito que puede saltar y usar su gancho para agarrar y moverse fácilmente por el mapa, incluso usar atajos, al final intentando llegar a su maceta y dormir(:!.",
 
 	"wasteShopTitle": "WasteShop",
-	"wasteShopDes": "Este inmersivo videojuego de realidad virtual está ambientado en un páramo post-apocalíptico. En este juego, los jugadores asumen el papel de un comerciante en una pequeña tienda en medio del páramo, vendiendo objetos valiosos y recursos, teniendo un tiempo y una puntuación, convirtiéndose en el gerente de la tienda escalando en el verdadero Leaderboard."
+	"wasteShopDes": "Este inmersivo videojuego de realidad virtual está ambientado en un páramo post-apocalíptico. En este juego, los jugadores asumen el papel de un comerciante en una pequeña tienda en medio del páramo, vendiendo objetos valiosos y recursos, teniendo un tiempo y una puntuación, convirtiéndose en el gerente de la tienda escalando en el verdadero Leaderboard.",
 	
+	"contact": "Contacto:"
+
 }
