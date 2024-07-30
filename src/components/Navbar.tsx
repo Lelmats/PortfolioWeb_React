@@ -71,7 +71,9 @@ return (
                   aria-label='LinkedIn'
                   href="https://www.linkedin.com/in/max-alejandro-rivera-higuera-8484b9208/"
                   data-twe-nav-link-ref
-                  ><i className="fa-brands fa-linkedin fa-xl" ></i></a
+                  >
+                    <i className="fa-brands fa-linkedin fa-xl" ></i>
+                  </a
                 >
               </li>
               <li className="mr-2 lg:mr-0 lg:mb-0 " data-twe-nav-item-ref>
@@ -116,19 +118,12 @@ return (
             className={classNames(
               item.current ? ' text-black/60 dark:text-white' : 'motion-reduce:transition-none text-black/60 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 dark:text-white dark:hover:text-white/60 dark:focus:text-white/60 dark:active:text-white/60',
               'block rounded-md px-3 py-2 text-base font-medium',
-
             )}
           >
             {t(item.name)}
           </DisclosureButton>
         ))}
       </div>
-      {/* <div className='flex absolute bg-slate-200 dark:bg-slate-600 w-[200px] h-[40px] z-[51] rounded-lg shadow-xl mt-1 5 right-[20px] transition-all '>
-        <div className='grid grid-flow-col items-center w-full font-JetBrains'>
-          <button className='font-black text-xs hover:bg-backgroundPrimary text-black dark:text-white hover:text-white/60 transition-all duration-500 h-full w-full '>English</button>
-          <button className='font-black text-xs hover:bg-backgroundPrimary text-black dark:text-white hover:text-white/60 transition-all duration-500 h-full w-full '>Español</button>
-        </div>
-      </div> */}
       <div className='flex   h-[40px] z-[51] rounded-lg shadow-xl 5 right-[20px] transition-all '>
         <div className='grid grid-flow-col items-center w-full font-JetBrains'>
         {Object.keys(lngs).map((lng) => (

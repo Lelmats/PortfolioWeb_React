@@ -38,7 +38,6 @@ function App() {
               </p>
           </div>
           <div className='flex justify-end'>
-            {/* <img className='object-cover h-[35vh] min-h-fit sm:h-[55vh] md:h-[65vh]  min-w-fit hover:scale-105 transition-transform duration-500' src="img\MaxCharacter.png" alt="" /> */}
             <img className='object-contain max-sm:w-[20rem] h-[100%] sm:w-[20rem] md:w-[25rem] xl:w-[30rem] hover:scale-105 transition-transform duration-500' src="img\MaxCharacter.webp" alt="" />
           </div>
         </div>
@@ -202,9 +201,34 @@ function App() {
       </div>
         
       {/* Section 5 - Contact */}
-      <footer className='bg-[#2b3747] h-10 w-vw'>
-        <div className='flex justify-center items-center h-full'>
-          <p className='text-white font-RobotoSlab font-bold text-center text-xs'>Made with React & Tailwind - Max Rivera - 2024</p>
+      <footer className='bg-[#2b3747] h-fit w-vw'>
+        <div className='grid justify-center items-center h-full pt-4 pb-2'>
+          <p className='text-white font-RobotoSlab font-bold text-center text-xs'> Max Rivera - 2024</p>
+          <span className='text-white font-RobotoSlab font-medium text-center text-xs'>Contact: maxalejandrorh@gmail.com </span>
+        </div>
+        <div className="grid grid-flow-col justify-center items-center mx-auto pb-2">
+          <a
+            className="text-black/60  hover:text-black/80 hover:ease-in-out transition duration-300
+            focus:text-black/80 active:text-black/80 motion-reduce:transition-none
+            dark:text-white dark:hover:text-white/60 dark:focus:text-white/60 dark:active:text-white/60 lg:px-1"
+            aria-label='LinkedIn'
+            href="https://www.linkedin.com/in/max-alejandro-rivera-higuera-8484b9208/"
+            data-twe-nav-link-ref
+            >
+              <i className="fa-brands fa-linkedin fa-xl" >
+              </i>
+          </a>
+          <a
+            className="text-black/60  hover:text-black/80 hover:ease-in-out transition duration-300
+              focus:text-black/80 active:text-black/80 motion-reduce:transition-none
+              dark:text-white dark:hover:text-white/60 dark:focus:text-white/60 dark:active:text-white/60 lg:px-1"
+            aria-label='GitHub'
+            href="https://github.com/Lelmats"
+            data-twe-nav-link-ref
+            >
+              <i className="fa-brands fa-github fa-xl">
+              </i>
+            </a>
         </div>
       </footer>
     </>
