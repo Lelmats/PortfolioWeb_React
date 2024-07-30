@@ -219,7 +219,7 @@ function App() {
               </i>
           </a>
           <a
-            className="text-black/60  hover:text-black/80 hover:ease-in-out transition duration-300
+            className="text-black/60  hover:text-black/80 hover:ease-in-out max-sm:pl-2 transition duration-300
               focus:text-black/80 active:text-black/80 motion-reduce:transition-none
               dark:text-white dark:hover:text-white/60 dark:focus:text-white/60 dark:active:text-white/60 lg:px-1"
             aria-label='GitHub'
