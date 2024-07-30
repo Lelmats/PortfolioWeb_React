@@ -131,22 +131,22 @@ function App() {
           </h1>
           <div className='grid'>
             <CardProject
-              title='Crypto Control'
-              description='Cryptocurrency control, with the possibility of calculating market prices using an external API, which updates and displays real-time prices.'
+              title={t('cryptoControl')}
+              description={t('cryptoControlDes')}
               tags={['React', 'Vite', 'TailwindCSS']}
               imgPath='img/Control_Crypto_SM.png'
               linkGithub='https://github.com/Lelmats/Crypto_Info-react-vite'
             />
             <CardProject
-              title='Expense Tracker'
-              description='Personal expense tracker, with the ability to add, edit, and delete expenses, using LocalStorage to store the data and keep it in the browser.'
+              title={t('expenseTracker')}
+              description={t('expenseTrackerDes')}
               tags={['React', 'Vite', 'TailwindCSS']}
               imgPath='img/Control_Gastos_SM.png'
               linkGithub='https://github.com/Lelmats/Control_Gastos-react-vite'
             />
             <CardProject
-              title='RestAPI Form'
-              description='Form that consumes a RestAPI, with the ability to add, edit, and delete data.'
+              title={t('formRestAPI')}
+              description={t('formRestAPIDes')}
               tags={['React', 'Vite', 'TailwindCSS']}
               imgPath='img/Form_RestAPI_SM.png'
               linkGithub='https://github.com/Lelmats/Form_RestAPI-react-vite'
@@ -156,28 +156,24 @@ function App() {
             {t('gameDev')}
           </h1>
           <CardProject
-            title='SpookyJamULSA - KidBox'
-            description='Theme of the Jam: "Quarantine". A boy appears on a desolate street, amidst his confusion within a completely strange world and piqued by curiosity, he will make the decision to discover what happened to the entire world, avoiding the silhouettes that stalk him during his trip, maintaining a stealth which will help him advance by finding clues with which to calm his curiosity, in order to find an unexpected ending...'
+            title={t('kidboxTitle')}
+            description={t('kidboxDes')}
             tags={['Unity', 'C#', 'Photoshop']}
             imgPath='img/Kidbox.png'
               // linkGithub='https://github.com/Lelmats/Form_RestAPI-react-vite'
               itchLink='https://lelmats.itch.io/kidbox'
             />
           <CardProject
-              title='CreativeJamULSA - TakeRoot'
-              description='Theme of the Jam: "Roots". 3 Plataform levels, with a main character a Fongus 
-              that can jump and use his hook to grab and move through the map easily, 
-              even use shortcuts, at the end trying to reach his pot and sleep(:!.'
+              title={t('takeRootTitle')}
+              description={t('takeRootDes')}
               tags={['Unity','C#', 'Maya']}
               imgPath='img/TakeRoot.png'
               // linkGithub='https://github.com/Lelmats/Form_RestAPI-react-vite'
               itchLink='https://lelmats.itch.io/kidbox'
             />
           <CardProject
-              title='WasteShop'
-              description='This immersive virtual reality video game is set in a post-apocalyptic wasteland. 
-              In this game, players take on the role of a trader in a small store in the middle of the wasteland, 
-              selling valuable items and resources, having a time and score, become the manager of the store climbing the real Leaderboard.'
+              title={t('wasteShopTitle')}
+              description={t('wasteShopDes')}
               tags={['Unity','C#', 'VR']}
               imgPath='img/WasteShopBackLogo.png'
               linkGithub='https://github.com/Lelmats/WasteShop/tree/main'

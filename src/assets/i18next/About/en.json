@@ -13,5 +13,23 @@
 	"Hello!": "Hello!",
 	"About Me": "About Me",
 	"Experience": "Experience",
-	"Projects": "Projects"
+	"Projects": "Projects",
+
+	"cryptoControl": "Crypto Control",
+	"cryptoControlDes": "Cryptocurrency control, with the possibility of calculating market prices using an external API, which updates and displays real-time prices.",
+	
+	"expenseTracker": "Expense Tracker",
+	"expenseTrackerDes": "Personal expense tracker, with the ability to add, edit, and delete expenses, using LocalStorage to store the data and keep it in the browser.",
+	
+	"formRestAPI": "RestAPI Form",
+	"formRestAPIDes": "Form that consumes a RestAPI, with the ability to add, edit, and delete data.",
+
+	"kidboxTitle": "SpookyJam - KidBox",
+	"kidboxDes": "Theme of the Jam: 'Quarantine'. A boy appears on a desolate street, amidst his confusion within a completely strange world and piqued by curiosity, he will make the decision to discover what happened to the entire world, avoiding the silhouettes that stalk him during his trip, maintaining a stealth which will help him advance by finding clues with which to calm his curiosity, in order to find an unexpected ending...",
+
+	"takeRootTitle": "CreativeJam - TakeRoot",
+	"takeRootDes": "Theme of the Jam: 'Roots'. 3 Plataform levels, with a main character a Fongus that can jump and use his hook to grab and move through the map easily, even use shortcuts, at the end trying to reach his pot and sleep(:!.",
+
+	"wasteShopTitle": "WasteShop",
+	"wasteShopDes": "This immersive virtual reality video game is set in a post-apocalyptic wasteland. In this game, players take on the role of a trader in a small store in the middle of the wasteland, selling valuable items and resources, having a time and score, become the manager of the store climbing the real Leaderboard."
 }

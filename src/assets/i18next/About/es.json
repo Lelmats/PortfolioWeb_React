@@ -8,11 +8,29 @@
 	"techTools" : "Tecnologías y Herramientas",
 	"techToolsDes" : "Con las que me siento más cómodo utilizando:",
 	"experience" : "Experiencia",
-	"projectsmore" : "Proyectos y Más",
+	"projectsmore" : "Proyectos",
 	"gameDev" : "Desarrollo VideoJuegos",
 	"Hello!": "¡Hola!",
 	"About Me": "Sobre mí",
 	"Experience": "Experiencia",
-	"Projects": "Proyectos"
+	"Projects": "Proyectos",
 
+	"cryptoControl": "Control de Criptomonedas",
+	"cryptoControlDes": "Control de criptomonedas, con la posibilidad de calcular precios de mercado utilizando una API externa, que actualiza y muestra precios en tiempo real.",
+	
+	"expenseTracker": "Seguimiento de Gastos",
+	"expenseTrackerDes": "Seguimiento personal de gastos, con la capacidad de agregar, editar y eliminar gastos, utilizando LocalStorage para almacenar los datos y mantenerlos en el navegador.",
+	
+	"formRestAPI": "Formulario RestAPI",
+	"formRestAPIDes": "Formulario que consume una RestAPI, con la capacidad de agregar, editar y eliminar datos.",
+
+	"kidboxTitle": "SpookyJam - KidBox",
+	"kidboxDes": "Tema del Jam: 'Cuarentena'. Un niño aparece en una calle desolada, en medio de su confusión dentro de un mundo completamente extraño y picado por la curiosidad, tomará la decisión de descubrir qué le sucedió al mundo entero, evitando las siluetas que lo acechan durante su viaje, manteniendo un sigilo que le ayudará a avanzar encontrando pistas con las cuales calmar su curiosidad, con el fin de encontrar un final inesperado...",
+
+	"takeRootTitle": "CreativeJam - TakeRoot",
+	"takeRootDes": "Tema del Jam: 'Raíces'. 3 niveles de plataformas, con un personaje principal un Honguito que puede saltar y usar su gancho para agarrar y moverse fácilmente por el mapa, incluso usar atajos, al final intentando llegar a su maceta y dormir(:!.",
+
+	"wasteShopTitle": "WasteShop",
+	"wasteShopDes": "Este inmersivo videojuego de realidad virtual está ambientado en un páramo post-apocalíptico. En este juego, los jugadores asumen el papel de un comerciante en una pequeña tienda en medio del páramo, vendiendo objetos valiosos y recursos, teniendo un tiempo y una puntuación, convirtiéndose en el gerente de la tienda escalando en el verdadero Leaderboard."
+	
 }
