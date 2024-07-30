@@ -112,7 +112,7 @@ function App() {
             />
             <CardExperience
             title={t('jobTitle_4')}
-            company='N/A'
+            company='Me - Contracts'
             date={t('jobDate_4')}
             imgPath='img/smileFace.svg'
             />
