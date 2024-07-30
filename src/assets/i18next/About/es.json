@@ -26,6 +26,9 @@
 
 	"Projects": "Proyectos",
 
+	"projectTitle_1": "MyCampus / ReportsWeb",
+	"projectDes_1": "Sitio web para registrar incidentes en un campus universitario basado en un mapa digital, gestionado por la administración universitaria.",
+
 	"cryptoControl": "Control de Criptomonedas",
 	"cryptoControlDes": "Control de criptomonedas, con la posibilidad de calcular precios de mercado utilizando una API externa, que actualiza y muestra precios en tiempo real.",
 	

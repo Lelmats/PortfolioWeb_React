@@ -137,6 +137,13 @@ function App() {
           </h1>
           <div className='grid'>
             <CardProject
+              title={t('projectTitle_1')}
+              description={t('projectDes_1')}
+              tags={['React', 'Nextjs', 'TailwindCSS']}
+              imgPath='img/My-Campus-LogoBG.jpg'
+              linkGithub='https://github.com/Lelmats/MyCampus'
+            />
+            <CardProject
               title={t('cryptoControl')}
               description={t('cryptoControlDes')}
               tags={['React', 'Vite', 'TailwindCSS']}
@@ -157,7 +164,12 @@ function App() {
               imgPath='img/Form_RestAPI_SM.png'
               linkGithub='https://github.com/Lelmats/Form_RestAPI-react-vite'
             />
+
+            <h1 className='font-JetBrains mx-auto text-center w-fit text-white mb-8 ml-auto text-xl sm:text-3xl md:text-3xl xl:text-4xl'>
+            More Coming soon...
+            </h1>
           </div>
+          <br />
           <h1 className='font-JetBrains mx-auto mt-5 text-center w-fit text-white border-b-4 border-secondaryColor rounded-lg mb-12 ml-auto text-xl sm:text-xl md:text-2xl xl:text-3xl'>
             {t('gameDev')}
           </h1>
@@ -185,6 +197,7 @@ function App() {
               linkGithub='https://github.com/Lelmats/WasteShop/tree/main'
               itchLink='https://lelmats.itch.io/kidbox'
             />
+            
         </div>
       </div>
         

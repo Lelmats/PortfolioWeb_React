@@ -24,8 +24,13 @@
 	"jobTitle_4": "FullStack Developer - Freelancer",
 	"jobDate_4": "August 2022 - Present",
 
+
+
 	"Projects": "Projects",
 
+	"projectTitle_1": "MyCampus / ReportsWeb",
+	"projectDes_1": "Website for recording incidents on a university campus based on a digital map, managed by university administration.",
+	
 	"cryptoControl": "Crypto Control",
 	"cryptoControlDes": "Cryptocurrency control, with the possibility of calculating market prices using an external API, which updates and displays real-time prices.",
 	
