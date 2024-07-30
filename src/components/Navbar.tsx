@@ -13,10 +13,13 @@ function classNames(...classes: string[]) {
 }
 
 export function Navbar() {
-const { t } = useTranslation();
-
+const { t, i18n} = useTranslation();
+const lngs: { [key: string]: { nativeName: string } } = { 
+  en: {nativeName: 'English'},
+  es: {nativeName: 'Español' }
+}
 return (
-  <Disclosure as="nav" className="dark:bg-gray-600 bg-gray-200 font-JetBrains fixed w-screen z-50 ">
+  <Disclosure as="nav" className="fixed dark:bg-gray-600 bg-gray-200 font-JetBrains w-screen z-50 ">
     <div className="mx-auto max-w-[90%] sm:px-6 lg:px-8 ">
       <div className="relative flex h-14 items-center justify-between">
         <div 
@@ -86,6 +89,16 @@ return (
           </div>
         </div>
       </div>
+      
+      <div className='flex absolute bg-slate-200 dark:bg-slate-600 w-fit h-[40px] z-[51] rounded-lg shadow-xl mt-1 5 right-[20px] transition-all max-sm:hidden'>
+        <div className='grid grid-flow-col items-center w-full font-JetBrains'>
+          {Object.keys(lngs).map((lng) => (
+            <button type='submit' key={lng} onClick={() => i18n.changeLanguage(lng)} className='font-black text-xs hover:bg-backgroundPrimary text-black dark:text-white hover:text-white/60 transition-all duration-500 h-full w-full px-4'>
+              {lngs[lng].nativeName}
+            </button>
+          ))}
+        </div>
+      </div>
     </div>
 
     <DisclosurePanel 
@@ -109,6 +122,21 @@ return (
             {t(item.name)}
           </DisclosureButton>
         ))}
+      </div>
+      {/* <div className='flex absolute bg-slate-200 dark:bg-slate-600 w-[200px] h-[40px] z-[51] rounded-lg shadow-xl mt-1 5 right-[20px] transition-all '>
+        <div className='grid grid-flow-col items-center w-full font-JetBrains'>
+          <button className='font-black text-xs hover:bg-backgroundPrimary text-black dark:text-white hover:text-white/60 transition-all duration-500 h-full w-full '>English</button>
+          <button className='font-black text-xs hover:bg-backgroundPrimary text-black dark:text-white hover:text-white/60 transition-all duration-500 h-full w-full '>Español</button>
+        </div>
+      </div> */}
+      <div className='flex   h-[40px] z-[51] rounded-lg shadow-xl 5 right-[20px] transition-all '>
+        <div className='grid grid-flow-col items-center w-full font-JetBrains'>
+        {Object.keys(lngs).map((lng) => (
+            <button type='submit' key={lng} onClick={() => i18n.changeLanguage(lng)} className='font-black text-xs hover:bg-backgroundPrimary text-black dark:text-white hover:text-white/60 transition-all duration-500 h-full w-full px-4'>
+              {lngs[lng].nativeName}
+            </button>
+          ))}
+        </div>
       </div>
     </DisclosurePanel>
   </Disclosure>

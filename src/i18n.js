@@ -17,7 +17,7 @@ const options = {
 }
 
 i18n
-  .use(XHR) // <---- add this
+  .use(XHR) 
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
@@ -33,3 +33,4 @@ i18n
     },
     debug: false,
   })
+
