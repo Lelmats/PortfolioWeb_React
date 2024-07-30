@@ -13,6 +13,14 @@
 	"Hello!": "Hello!",
 	"About Me": "About Me",
 	"Experience": "Experience",
+
+	"jobTitle_1": "FullStack Developer",
+	"jobDate_1": "March 2022 - July 2022",
+	"jobTitle_2": "Intern FrontEnd Developer",
+	"jobDate_2": "January 2021 - June 2021",
+	"jobTitle_3": "Frontend Developer - Freelancer",
+	"jobDate_3": "January 2021 - June 2021",
+
 	"Projects": "Projects",
 
 	"cryptoControl": "Crypto Control",

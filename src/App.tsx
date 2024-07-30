@@ -93,21 +93,21 @@ function App() {
           </div>
           <div className="text-center mb-5">
             <CardExperience
-            title='FullStack Developer'
+            title={t('jobTitle_1')}
             company='MEDIAEREA / Drone Solutions & Monitoring Technologies'
-            date='Mar 2022 - Jul 2022'
+            date={t('jobDate_1')}
             imgPath='img/MAIcon.jpeg'
             />
             <CardExperience
-            title='Intern FrontEnd Developer '
+            title={t('jobTitle_2')}
             company='MEDIAEREA / Drone Solutions & Monitoring Technologies'
-            date='Jan 2021 - Jun 2021'
+            date={t('jobDate_2')}
             imgPath='img/MAIcon.jpeg'
             />
             <CardExperience
-            title='Frontend Developer - Freelance'
+            title={t('jobTitle_3')}
             company='RUBISCO'
-            date='Jan 2021 - Jun 2021'
+            date={t('jobDate_3')}
             imgPath='img/Rubisco.png'
             />
           </div>
