@@ -194,7 +194,7 @@ function App() {
               tags={['Unity','C#', 'VR']}
               imgPath='img/WasteShopBackLogo.png'
               linkGithub='https://github.com/Lelmats/WasteShop/tree/main'
-              itchLink='https://lelmats.itch.io/kidbox'
+              // itchLink='https://lelmats.itch.io/kidbox'
             />
             
         </div>
