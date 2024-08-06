@@ -14,7 +14,7 @@ export const CardExperience = ({ title, company, date, imgPath }: CardExperience
         shadow-sm sm:hover:shadow-xl sm:hover:translate-x-4 sm:hover:translate-y-[-4px] transition-all duration-[400ms]'>
             <div className='grid sm:grid-cols-5 items-center md:text-left '>
                 <div className='md:col-span-1'>
-                    <img src={imgPath} alt="MediaAerea" className='max-[640px]:w-[18%] max-w-[100px] mx-auto shadow-md'/>
+                    <img src={imgPath} alt={title} className='max-[640px]:w-[18%] max-w-[100px] mx-auto shadow-md'/>
                 </div>
                 <div className='sm:col-span-4 sm:ml-6 max-sm:px-3'>
                     <h1 className='text-white text-lg md:text-xl py-2 font-bold '>{title}</h1>

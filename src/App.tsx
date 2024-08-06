@@ -39,7 +39,7 @@ function App() {
               </p>
           </div>
           <div className='flex justify-end'>
-            <img className='object-contain max-sm:w-[20rem] h-[100%] sm:w-[20rem] md:w-[25rem] xl:w-[30rem] hover:scale-105 transition-transform duration-500' src="img\MaxCharacter.webp" alt="" />
+            <img className='object-contain max-sm:w-[20rem] h-[100%] sm:w-[20rem] md:w-[25rem] xl:w-[30rem] hover:scale-105 transition-transform duration-500' src="img\MaxCharacter.webp" alt=" Hi!, i'm Max A Full Stack Developer " />
           </div>
         </div>
       </div>
@@ -146,9 +146,9 @@ function App() {
               </div>
             </div>
             <div className='flex items-center justify-center m-52 max-sm:my-40 max-lg:my-60 max-sm:mx-auto'>
-                <img src="/img/Exterior.png" alt="" className='absolute w-[20rem] max-[450px]:w-[14rem] sm:w-[25rem] xl:w-[30rem] object-contain origin-center transition-all animate-spin-slow-2'/>
-                <img src="/img/Middle.png" alt="" className='absolute w-[13.5rem] max-[450px]:w-[9rem] sm:w-[16rem] xl:w-[19.5rem] object-contain origin-center transition-all animate-spin-slow-1'/>
-                <img src="/img/Inner.png" alt="" className='absolute w-[8rem] max-[450px]:w-[5rem] sm:w-[8rem] xl:w-[11rem] object-contain origin-center transition-all animate-spin-slow'/>
+                <img src="/img/Exterior.png" alt="Programming Languages" className='absolute w-[20rem] max-[450px]:w-[14rem] sm:w-[25rem] xl:w-[30rem] object-contain origin-center transition-all animate-spin-slow-2'/>
+                <img src="/img/Middle.png" alt="Front-End / Back-End Technologies" className='absolute w-[13.5rem] max-[450px]:w-[9rem] sm:w-[16rem] xl:w-[19.5rem] object-contain origin-center transition-all animate-spin-slow-1'/>
+                <img src="/img/Inner.png" alt="Tools/Deploy" className='absolute w-[8rem] max-[450px]:w-[5rem] sm:w-[8rem] xl:w-[11rem] object-contain origin-center transition-all animate-spin-slow'/>
             </div>
           </div>
         </div>
