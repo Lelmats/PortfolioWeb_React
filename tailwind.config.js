@@ -20,7 +20,10 @@ export default {
       colors: {
         'backgroundPrimary': '#334155',
         'secondaryColor': '#9992D6',
-        'secondaryColor2': '#c792df',
+        'YellowBorder': '#f9f871',
+        'OrangeBorder': '#ffcf72',
+        'SalmonBorder': '#ffab91',
+        'PurpleBorder': '#dd92d2',
       },
       animation: {
         'spin-slow': 'spin 15s linear infinite',
@@ -34,6 +37,7 @@ export default {
         }
       }
     },
+
   },
   plugins: [
     taos

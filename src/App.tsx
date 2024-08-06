@@ -3,6 +3,7 @@ import CSS from "csstype";
 import Navbar from './components/Navbar';
 import CardProject from './components/CardProject';
 import CardExperience from './components/CardExperience';
+import CardTechs from './components/CardTechs';
 import { useTranslation } from 'react-i18next';
 
 function App() {
@@ -45,38 +46,109 @@ function App() {
 
       {/* Section 2 - About Me/Technologies */}
       <div className="flex bg-backgroundPrimary p-10 xl:p-28 " style={backgroundStyle} id='AboutMe'>
-        <div className='absolute mb-10 mt-40 xl:mt-28 left-[47%] xl:left-[45%] z-49' >
-          <img src="img/ArrowW.png" alt="" className='w-[200px] xl:w-[200px] 2xl:w-[250px] rotate-[-100deg] max-lg:hidden '/>
+        <div className='absolute mb-10 mt-40 lg:mt-20 xl:mt-20 left-[43%] lg:left-[45%] xl:left-[45%] z-49' >
+          <img src="img/ArrowW.png" alt="" className='w-[180px] xl:w-[200px] 2xl:w-[200px] rotate-[-100deg] max-lg:hidden '/>
         </div>
         <div className='md:grid md:grid-flow-row'>
           <div className='mb-20 md:grid md:grid-flow-col'>
             <h1 className='font-RobotoSlab text-white rounded-lg mr-10 my-4 border-b-8 border-secondaryColor text-3xl sm:text-4xl md:text-4xl xl:text-5xl w-fit h-fit '>
               {t('aboutme')} 
             </h1>
-            <p className='font-RobotoSlab text-white text-md min-[600px]:text-lg sm:text-lg md:text-xl xl:text-xl 2xl:w-3/4 ml-auto text-balance text-right max-md:text-center'>
+            <p className='font-RobotoSlab text-white text-md min-[600px]:text-lg 
+            sm:text-lg md:text-xl xl:text-xl 2xl:w-3/4 ml-auto text-balance 
+            text-right max-md:text-center'>
               {t('aboutmeDes')}
-              {/* I'm a Software Developer, with a strong background
-              in <b>Front-End</b> development and some experience in <b>Back-End</b>, 
-              also experience in game development with <b>Unity</b> , 
-              Currently I'm deepening my knowledge in data structures
-              and constantly sharpening my skills.
-              I have a passion for learning new technologies,
-              and I am committed to continuous improvement 🚀. */}
             </p>
-            
           </div>
-          <div className='lg:grid lg:grid-flow-col'>
+          <div className='lg:grid lg:grid-flow-col '>
             <div className='flex items-center order-last ml-auto 2xl:mx-auto'>
-              <div className='sm:mb-5 max-xl:mx-auto '>
-                <h1 className='font-RobotoSlab mx-auto w-fit text-white border-b-8 border-secondaryColor rounded-lg mb-5 mt-5 md:mb-5 ml-auto text-2xl sm:text-4xl md:text-4xl xl:text-5xl max-sm:text-center'>{t('techTools')}</h1> 
+              <div className='sm:mb-5 mx-auto '>
+                <h1 className='font-RobotoSlab mx-auto w-fit text-white border-b-8
+                border-secondaryColor rounded-lg mb-5 mt-5 md:mb-5 ml-auto text-2xl 
+                sm:text-4xl md:text-4xl xl:text-5xl max-sm:text-center'>{t('techTools')}</h1> 
                 <h2 className='font-RobotoCondensed text-white mb-6 ml-auto text-xl sm:text-2xl md:text-xl xl:text-xl max-lg:text-center'>{t('techToolsDes')}</h2>
-                <div className='flex mx-auto items-center justify-center'></div>
+                <div className='grid grid-flow-col gap-3 max-lg:mx-auto lg:ml-auto mb-0 max-lg:mb-10'>
+                  <div id='ExteriorTechs' >
+                    <CardTechs
+                    title='JavasScript'
+                    color='#3178c6'
+                    />
+                    <CardTechs
+                    title='Typescript'
+                    color='#3178c6'
+                    />
+                    <CardTechs
+                    title='C++'
+                    color='#3178c6'
+                    />
+                    <CardTechs
+                    title='Python'
+                    color='#3178c6'
+                    />
+                    <CardTechs
+                    title='PHP'
+                    color='#3178c6'
+                    />
+                  </div>
+                  <div id='MediumTechs'>
+                    <CardTechs
+                    title='React'
+                    color='#0db7ed'
+                    />
+                    <CardTechs
+                    title='Bootrstrap'
+                    color='#0db7ed'
+                    />
+                    <CardTechs
+                    title='TailwindCSS'
+                    color='#0db7ed'
+                    />
+                    <CardTechs
+                    title='Figma'
+                    color='#0db7ed'
+                    />
+                    <CardTechs
+                    title='NodeJS'
+                    color='#f29111'
+                    />
+                    <CardTechs
+                    title='MongoDB'
+                    color='#f29111'
+                    />
+                    <CardTechs
+                    title='Django'
+                    color='#f29111'
+                    />
+                    <CardTechs
+                    title='MySQL'
+                    color='#f29111'
+                    />
+                  </div>
+                  <div id='interiorTechs'>
+                    <CardTechs
+                    title='Github'
+                    color='#00c7b7'
+                    />
+                    <CardTechs
+                    title='Docker'
+                    color='#00c7b7'
+                    />
+                    <CardTechs
+                    title='Netlify'
+                    color='#6762a6'
+                    />
+                    <CardTechs
+                    title='Heroku'
+                    color='#6762a6'
+                    />
+                  </div>
+                </div>
               </div>
             </div>
-            <div className='flex items-center justify-center m-44 max-sm:my-36 max-md:my-48 max-sm:mx-auto h-fit'>
-                <img src="/img/Exterior.png" alt="" className='absolute max-sm:w-[16rem] w-[25rem] sm:w-[25rem] xl:w-[30rem]  object-contain origin-center transition-all animate-spin-slow-2'/>
-                <img src="/img/Middle.png" alt="" className='absolute max-sm:w-[10.5rem] w-[17rem] sm:w-[17rem] xl:w-[20.5rem] object-contain origin-center transition-all animate-spin-slow-1'/>
-                <img src="/img/Inner.png" alt="" className='absolute max-sm:w-[5rem] w-[10rem] sm:w-[9rem] xl:w-[11rem] object-contain origin-center transition-all animate-spin-slow'/>
+            <div className='flex items-center justify-center m-52 max-sm:my-40 max-lg:my-60 max-sm:mx-auto'>
+                <img src="/img/Exterior.png" alt="" className='absolute w-[20rem] max-[450px]:w-[14rem] sm:w-[25rem] xl:w-[30rem] object-contain origin-center transition-all animate-spin-slow-2'/>
+                <img src="/img/Middle.png" alt="" className='absolute w-[13.5rem] max-[450px]:w-[9rem] sm:w-[16rem] xl:w-[19.5rem] object-contain origin-center transition-all animate-spin-slow-1'/>
+                <img src="/img/Inner.png" alt="" className='absolute w-[8rem] max-[450px]:w-[5rem] sm:w-[8rem] xl:w-[11rem] object-contain origin-center transition-all animate-spin-slow'/>
             </div>
           </div>
         </div>
