@@ -15,7 +15,7 @@ export const CardTechs = ({ title,color }: CardTechsProps) => {
             sm:hover:translate-y-[-1px] transition-all duration-[200ms]" style={borderColor}>
             <div className="justify-between py-0.5 leading-normal px-2 ">
                 <h1 className="font-JetBrains text-xs md:text-sm font-medium md:font-bold tracking-tight
-                 text-white text-center my-1">{title}</h1>
+                 text-white text-center my-1" >{title}</h1>
                 {/* <p className="mb-3 text-base font-semibold md:text-md text-gray-300 dark:text-gray-300 text-wrap">asd</p> */}
             </div>
         </div>
