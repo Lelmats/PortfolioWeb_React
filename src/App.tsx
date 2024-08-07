@@ -193,9 +193,11 @@ function App() {
 
       {/* /* Section 4 - Projects */}
       <div className="flex bg-backgroundPrimary py-28 sm:text-5xl md:text-5xl xl:text-6xl text-4xl" style={backgroundStyle} id='Projects'>
+        {/* ImageArrow */}
         <div className='absolute mb-44 left-[80%] lg:left-[82%] xl:left-[82%] z-49'>
-          <img src="img/ClickWG.png" alt="" className='w-[150px] xl:w-[200px] 2xl:w-[250px] max-md:hidden' />
+          <img src="img/ClickWG.png" alt="ArrowGithub" className='w-[150px] xl:w-[200px] 2xl:w-[250px] max-md:hidden' />
         </div>
+
         <div className='mx-auto'>
           <h1 className='font-JetBrains mx-auto text-center w-fit text-white border-b-8 border-secondaryColor rounded-lg mb-8 ml-auto text-2xl sm:text-4xl md:text-4xl xl:text-5xl'>
             {t('projectsmore')}
@@ -203,21 +205,24 @@ function App() {
           <h1 className='font-JetBrains mx-auto text-center w-fit text-white border-b-4 border-secondaryColor rounded-lg mb-4 ml-auto text-xl sm:text-xl md:text-2xl xl:text-3xl'>
             Web Development
           </h1>
+
           <h1 className='font-JetBrains mx-auto text-center w-fit text-white border-secondaryColor rounded-lg mb-4 ml-auto text-4xl sm:text-4xl md:text-4xl xl:text-5xl'>
             🌐
           </h1>
-          <div className='grid'>
+
+          {/* Projects */}
+          <div >
             <CardProject
               title={t('projectTitle_1')}
               description={t('projectDes_1')}
-              tags={['React', 'Nextjs', 'TailwindCSS']}
+              tags={['React', 'NextJS', 'TailwindCSS']}
               imgPath='img/My-Campus-LogoBG.jpg'
               linkGithub='https://github.com/Lelmats/MyCampus'
             />
             <CardProject
               title={t('cryptoControl')}
               description={t('cryptoControlDes')}
-              tags={['React', 'Vite', 'TailwindCSS']}
+              tags={['React', 'API', 'TailwindCSS']}
               imgPath='img/Control_Crypto_SM.png'
               linkGithub='https://github.com/Lelmats/Crypto_Info-react-vite'
             />
@@ -231,7 +236,7 @@ function App() {
             <CardProject
               title={t('formRestAPI')}
               description={t('formRestAPIDes')}
-              tags={['React', 'Vite', 'TailwindCSS']}
+              tags={['React', 'APIRest', 'TailwindCSS']}
               imgPath='img/Form_RestAPI_SM.png'
               linkGithub='https://github.com/Lelmats/Form_RestAPI-react-vite'
             />
@@ -241,34 +246,38 @@ function App() {
             </h1>
           </div>
           <br />
+
           <h1 className='font-JetBrains mx-auto mt-5 text-center w-fit text-white border-b-4 border-secondaryColor rounded-lg mb-12 ml-auto text-xl sm:text-xl md:text-2xl xl:text-3xl'>
             {t('gameDev')}
           </h1>
-          <CardProject
-            title={t('kidboxTitle')}
-            description={t('kidboxDes')}
-            tags={['Unity', 'C#', 'Photoshop']}
-            imgPath='img/Kidbox.png'
-              // linkGithub='https://github.com/Lelmats/Form_RestAPI-react-vite'
-              itchLink='https://lelmats.itch.io/kidbox'
-            />
-          <CardProject
-              title={t('takeRootTitle')}
-              description={t('takeRootDes')}
-              tags={['Unity','C#', 'Maya']}
-              imgPath='img/TakeRoot.png'
-              // linkGithub='https://github.com/Lelmats/Form_RestAPI-react-vite'
-              itchLink='https://lelmats.itch.io/kidbox'
-            />
-          <CardProject
-              title={t('wasteShopTitle')}
-              description={t('wasteShopDes')}
-              tags={['Unity','C#', 'VR']}
-              imgPath='img/WasteShopBackLogo.png'
-              linkGithub='https://github.com/Lelmats/WasteShop/tree/main'
-              // itchLink='https://lelmats.itch.io/kidbox'
-            />
-            
+
+           {/* Games */}
+          <div >
+            <CardProject
+              title={t('kidboxTitle')}
+              description={t('kidboxDes')}
+              tags={['Unity', 'C#', 'Photoshop']}
+              imgPath='img/Kidbox.png'
+                // linkGithub='https://github.com/Lelmats/Form_RestAPI-react-vite'
+                itchLink='https://lelmats.itch.io/kidbox'
+              />
+            <CardProject
+                title={t('takeRootTitle')}
+                description={t('takeRootDes')}
+                tags={['Unity','C#', 'Maya']}
+                imgPath='img/TakeRoot.png'
+                // linkGithub='https://github.com/Lelmats/Form_RestAPI-react-vite'
+                itchLink='https://lelmats.itch.io/kidbox'
+              />
+            <CardProject
+                title={t('wasteShopTitle')}
+                description={t('wasteShopDes')}
+                tags={['Unity','C#', 'VR']}
+                imgPath='img/WasteShopBackLogo.png'
+                linkGithub='https://github.com/Lelmats/WasteShop/tree/main'
+                // itchLink='https://lelmats.itch.io/kidbox'
+              />
+          </div>
         </div>
       </div>
         
