@@ -25,7 +25,7 @@ export const CardProject = ({ title, description, tags, imgPath, linkGithub, itc
           <img className="object-cover object-top min-w-[200px] h-[200px] md:w-48 rounded-xl p-2 " src={imgPath} alt={title} />
           <div className="flex flex-col justify-between p-4 leading-normal ">
             <h1 className="mb-2 text-xl font-bold tracking-tight text-white">{title}</h1>
-            <p className="mb-3 text-base font-semibold md:text-md text-gray-300 dark:text-gray-300 text-wrap">{description}</p>
+            <p className="mb-3 text-base font-semibold md:text-md text-gray-300 dark:text-gray-300 max-sm:text-justify text-pretty">{description}</p>
             <div className="grid lg:grid-flow-col grid-cols-3 w-fit lg:flex ">
               {listTags}
               { linkGithub && (
