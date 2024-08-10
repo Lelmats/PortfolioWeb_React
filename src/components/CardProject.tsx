@@ -17,16 +17,16 @@ export const CardProject = ({ title, description, tags, imgPath, linkGithub, itc
 
   return (
     <>
-      <div className="">
-        <div className="flex flex-col max-sm:border-8 border-[6px] max-md:mx-8 mb-4 mx-4 p-2 border-gray-400 rounded-lg md:flex-row items-center min-w-[40vw] md:max-w-[60vw] 
-          bg-[#8b8b8b10] hover:bg-[#8b8b8b25] shadow-sm sm:hover:shadow-xl sm:hover:translate-x-4 sm:hover:translate-y-[-4px] transition-all duration-[400ms]"
-          
-          >
+      <div>
+        <div className="flex flex-col md:flex-row max-sm:border-8 border-[6px] max-md:mx-10 mb-4 mx-4 p-2 border-gray-400 rounded-lg  items-center 
+         bg-[#8b8b8b10] hover:bg-[#8b8b8b25] 
+        shadow-sm sm:hover:shadow-xl sm:hover:translate-x-4 sm:hover:translate-y-[-4px] transition-all duration-[400ms]"
+        >
           <img className="object-cover object-top min-w-[200px] h-[200px] md:w-48 rounded-xl p-2 " src={imgPath} alt={title} />
           <div className="flex flex-col justify-between p-4 leading-normal ">
             <h1 className="mb-2 text-xl font-bold tracking-tight text-white">{title}</h1>
             <p className="mb-3 text-base font-semibold md:text-md text-gray-300 dark:text-gray-300 max-sm:text-justify text-pretty">{description}</p>
-            <div className="grid lg:grid-flow-col grid-cols-3 w-fit lg:flex ">
+            <div className="grid lg:flex lg:grid-flow-col grid-cols-3 w-fit  ">
               {listTags}
               { linkGithub && (
               <a type="button" href={linkGithub} className="mr-1 py-1 px-2 text-xs max-w-fit h-fit flex  

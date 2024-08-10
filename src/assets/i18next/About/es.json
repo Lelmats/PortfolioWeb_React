@@ -29,14 +29,17 @@
 	"projectTitle_1": "MyCampus / ReportsWeb",
 	"projectDes_1": "Sitio web para registrar incidentes en un campus universitario basado en un mapa digital, gestionado por la administración universitaria.",
 
-	"cryptoControl": "Control de Criptomonedas",
-	"cryptoControlDes": "Control de criptomonedas, con la posibilidad de calcular precios de mercado utilizando una API externa, que actualiza y muestra precios en tiempo real.",
+	"projectTitle_2": "Control de Criptomonedas",
+	"projectDes_2": "Control de criptomonedas, con la posibilidad de calcular precios de mercado utilizando una API externa, que actualiza y muestra precios en tiempo real.",
 	
-	"expenseTracker": "Seguimiento de Gastos",
-	"expenseTrackerDes": "Seguimiento personal de gastos, con la capacidad de agregar, editar y eliminar gastos, utilizando LocalStorage para almacenar los datos y mantenerlos en el navegador.",
+	"projectTitle_3": "Seguimiento de Gastos",
+	"projectDes_3": "Seguimiento personal de gastos, con la capacidad de agregar, editar y eliminar gastos, utilizando LocalStorage para almacenar los datos y mantenerlos en el navegador.",
 	
-	"formRestAPI": "Formulario RestAPI",
-	"formRestAPIDes": "Formulario que consume una RestAPI, con la capacidad de agregar, editar y eliminar datos.",
+	"projectTitle_4": "Formulario RestAPI",
+	"projectDes_4": "Formulario que consume una RestAPI, con la capacidad de agregar, editar y eliminar datos.",
+	
+	"projectTitle_5": "Formulario Django",
+	"projectDes_5": "Formulario, con la capacidad de agregar, editar y eliminar datos, utilizando Django como backend.",
 
 	"kidboxTitle": "SpookyJam - KidBox",
 	"kidboxDes": "Tema del Jam: 'Cuarentena'. Un niño aparece en una calle desolada, en medio de su confusión dentro de un mundo completamente extraño y picado por la curiosidad, tomará la decisión de descubrir qué le sucedió al mundo entero, evitando las siluetas que lo acechan durante su viaje, manteniendo un sigilo que le ayudará a avanzar encontrando pistas con las cuales calmar su curiosidad, con el fin de encontrar un final inesperado...",

@@ -156,7 +156,7 @@ function App() {
 
       {/* Section 3 - Experience */}
       <div className="flex  font-JetBrains bg-backgroundPrimary py-16 sm:text-5xl md:text-5xl xl:text-6xl text-4xl items-center " style={backgroundStyle} id='Experience' >
-        <div className='mx-auto sm:w-2/3 '>
+        <div className='mx-auto md:w-2/3 '>
           <div className=''>
             <h1 className='mx-auto w-fit text-white border-b-8 border-secondaryColor rounded-lg mb-5 md:mb-5 ml-auto text-2xl sm:text-4xl md:text-4xl xl:text-5xl mt-5'>
               {t('experience')}
@@ -211,7 +211,7 @@ function App() {
           </h1>
 
           {/* Projects */}
-          <div >
+          <div className="grid grid-cols-1 2xl:grid-cols-2 md:w-3/4 mx-auto" >
             <CardProject
               title={t('projectTitle_1')}
               description={t('projectDes_1')}
@@ -220,31 +220,39 @@ function App() {
               linkGithub='https://github.com/Lelmats/MyCampus'
             />
             <CardProject
-              title={t('cryptoControl')}
-              description={t('cryptoControlDes')}
+              title={t('projectTitle_2')}
+              description={t('projectDes_2')}
               tags={['React', 'API', 'TailwindCSS']}
               imgPath='img/Control_Crypto_SM.png'
               linkGithub='https://github.com/Lelmats/Crypto_Info-react-vite'
             />
             <CardProject
-              title={t('expenseTracker')}
-              description={t('expenseTrackerDes')}
+              title={t('projectTitle_3')}
+              description={t('projectDes_3')}
               tags={['React', 'Vite', 'TailwindCSS']}
               imgPath='img/Control_Gastos_SM.png'
               linkGithub='https://github.com/Lelmats/Control_Gastos-react-vite'
             />
             <CardProject
-              title={t('formRestAPI')}
-              description={t('formRestAPIDes')}
+              title={t('projectTitle_4')}
+              description={t('projectDes_4')}
               tags={['React', 'APIRest', 'TailwindCSS']}
               imgPath='img/Form_RestAPI_SM.png'
               linkGithub='https://github.com/Lelmats/Form_RestAPI-react-vite'
+            />
+            <CardProject
+              title={t('projectTitle_5')}
+              description={t('projectDes_5')}
+              tags={['Django', 'Bootstrap']}
+              imgPath='img/Form_RestAPI_SM.png'
+              linkGithub='https://github.com/Lelmats/DjangoForm'
             />
 
             <h1 className='font-JetBrains mx-auto text-center w-fit text-white my-8 ml-auto text-xl sm:text-3xl md:text-3xl xl:text-4xl'>
             More soon...
             </h1>
           </div>
+
           <br />
 
           <h1 className='font-JetBrains mx-auto mt-5 text-center w-fit text-white border-b-4 border-secondaryColor rounded-lg mb-12 ml-auto text-xl sm:text-xl md:text-2xl xl:text-3xl'>
@@ -252,7 +260,7 @@ function App() {
           </h1>
 
            {/* Games */}
-          <div >
+          <div className='grid grid-cols-1  md:w-3/4 mx-auto'>
             <CardProject
               title={t('kidboxTitle')}
               description={t('kidboxDes')}

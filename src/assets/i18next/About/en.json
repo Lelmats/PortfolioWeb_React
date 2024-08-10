@@ -31,14 +31,17 @@
 	"projectTitle_1": "MyCampus / ReportsWeb",
 	"projectDes_1": "Website for recording incidents on a university campus based on a digital map, managed by university administration.",
 	
-	"cryptoControl": "Crypto Control",
-	"cryptoControlDes": "Cryptocurrency control, with the possibility of calculating market prices using an external API, which updates and displays real-time prices.",
+	"projectTitle_2": "Crypto Control",
+	"projectDes_2": "Cryptocurrency control, with the possibility of calculating market prices using an external API, which updates and displays real-time prices.",
 	
-	"expenseTracker": "Expense Tracker",
-	"expenseTrackerDes": "Personal expense tracker, with the ability to add, edit, and delete expenses, using LocalStorage to store the data and keep it in the browser.",
+	"projectTitle_3": "Expense Tracker",
+	"projectDes_3": "Personal expense tracker, with the ability to add, edit, and delete expenses, using LocalStorage to store the data and keep it in the browser.",
 	
-	"formRestAPI": "RestAPI Form",
-	"formRestAPIDes": "Form that consumes a RestAPI, with the ability to add, edit, and delete data.",
+	"projectTitle_4": "RestAPI Form",
+	"projectDes_4": "Form that consumes a RestAPI, with the ability to add, edit, and delete data.",
+
+	"projectTitle_5": "Django Form",
+	"projectDes_5": "Form with the ability to add, edit, and delete data, using Django as the backend.",
 
 	"kidboxTitle": "SpookyJam - KidBox",
 	"kidboxDes": "Theme of the Jam: 'Quarantine'. A boy appears on a desolate street, amidst his confusion within a completely strange world and piqued by curiosity, he will make the decision to discover what happened to the entire world, avoiding the silhouettes that stalk him during his trip, maintaining a stealth which will help him advance by finding clues with which to calm his curiosity, in order to find an unexpected ending...",
