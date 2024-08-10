@@ -244,7 +244,7 @@ function App() {
               title={t('projectTitle_5')}
               description={t('projectDes_5')}
               tags={['Django', 'Bootstrap']}
-              imgPath='img/Form_RestAPI_SM.png'
+              imgPath='img/ScreenHome.png'
               linkGithub='https://github.com/Lelmats/DjangoForm'
             />
 
