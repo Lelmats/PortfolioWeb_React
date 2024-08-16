@@ -206,7 +206,7 @@ function App() {
             Web Development
           </h1>
 
-          <h1 className='font-JetBrains mx-auto text-center w-fit text-white border-secondaryColor rounded-lg mb-4 ml-auto text-4xl sm:text-4xl md:text-4xl xl:text-5xl'>
+          <h1 className='font-JetBrains mx-auto my-6 text-center w-fit text-white border-secondaryColor rounded-lg mb-4 ml-auto text-4xl sm:text-4xl md:text-4xl xl:text-5xl'>
             🌐
           </h1>
 
@@ -275,7 +275,7 @@ function App() {
                 tags={['Unity','C#', 'Maya']}
                 imgPath='img/TakeRoot.png'
                 // linkGithub='https://github.com/Lelmats/Form_RestAPI-react-vite'
-                itchLink='https://lelmats.itch.io/kidbox'
+                itchLink='https://lelmats.itch.io/take-root'
               />
             <CardProject
                 title={t('wasteShopTitle')}
