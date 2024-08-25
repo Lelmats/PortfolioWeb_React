@@ -56,7 +56,7 @@ function App() {
             </h1>
             <p className='font-RobotoSlab text-white text-md min-[600px]:text-lg 
             sm:text-lg md:text-xl xl:text-xl 2xl:w-3/4 ml-auto text-right
-             max-md:text-center'>
+             max-md:text-justify'>
               {t('aboutmeDes')}
             </p>
           </div>
