@@ -101,7 +101,7 @@ function App() {
                     color='#0db7ed'
                     />
                     <CardTechs
-                    title='ASP.NET'
+                    title='ASP.NET '
                     color='#0db7ed'
                     />
                     <CardTechs
