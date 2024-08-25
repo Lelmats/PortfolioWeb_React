@@ -46,17 +46,17 @@ function App() {
 
       {/* Section 2 - About Me/Technologies */}
       <div className="flex bg-backgroundPrimary p-10 xl:p-28 " style={backgroundStyle} id='AboutMe'>
-        <div className='absolute mb-10 mt-40 lg:mt-20 xl:mt-20 left-[43%] lg:left-[45%] xl:left-[45%] z-49' >
-          <img src="img/ArrowW.png" alt="" className='w-[180px] xl:w-[200px] 2xl:w-[200px] rotate-[-100deg] max-lg:hidden '/>
+        <div className='absolute mb-10 mt-40 lg:mt-26  left-[43%] lg:left-[45%] xl:left-[45%] z-49' >
+          <img src="img/ArrowW.png" alt="" className='w-[180px] xl:w-[200px] 2xl:w-[200px] rotate-[-100deg] max-lg:hidden'/>
         </div>
         <div className='md:grid md:grid-flow-row'>
           <div className='mb-20 md:grid md:grid-flow-col'>
-            <h1 className='font-RobotoSlab text-white rounded-lg mr-10 my-4 border-b-8 border-secondaryColor text-3xl sm:text-4xl md:text-4xl xl:text-5xl w-fit h-fit '>
+            <h1 className='font-RobotoSlab text-white rounded-lg mr-10 my-3 border-b-8 border-secondaryColor text-3xl sm:text-4xl md:text-4xl xl:text-5xl w-fit h-fit '>
               {t('aboutme')} 
             </h1>
             <p className='font-RobotoSlab text-white text-md min-[600px]:text-lg 
-            sm:text-lg md:text-xl xl:text-xl 2xl:w-3/4 ml-auto text-balance 
-            text-right max-md:text-center'>
+            sm:text-lg md:text-xl xl:text-xl 2xl:w-3/4 ml-auto text-right
+             max-md:text-center'>
               {t('aboutmeDes')}
             </p>
           </div>
