@@ -67,6 +67,7 @@ function App() {
                 border-secondaryColor rounded-lg mb-5 mt-5 md:mb-5 ml-auto text-2xl 
                 sm:text-4xl md:text-4xl xl:text-5xl max-sm:text-center'>{t('techTools')}</h1> 
                 <h2 className='font-RobotoCondensed text-white mb-6 ml-auto text-xl sm:text-2xl md:text-xl xl:text-xl max-lg:text-center'>{t('techToolsDes')}</h2>
+                {/* Technologies */}
                 <div className='grid grid-flow-col gap-3 max-lg:mx-auto lg:ml-auto mb-0 max-lg:mb-10'>
                   <div id='ExteriorTechs' >
                     <CardTechs
@@ -79,6 +80,10 @@ function App() {
                     />
                     <CardTechs
                     title='C++'
+                    color='#3178c6'
+                    />
+                    <CardTechs
+                    title='C#'
                     color='#3178c6'
                     />
                     <CardTechs
@@ -96,7 +101,7 @@ function App() {
                     color='#0db7ed'
                     />
                     <CardTechs
-                    title='Bootrstrap'
+                    title='ASP.NET'
                     color='#0db7ed'
                     />
                     <CardTechs
