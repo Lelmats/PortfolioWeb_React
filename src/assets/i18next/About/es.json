@@ -41,6 +41,9 @@
 	"projectTitle_5": "Formulario Django",
 	"projectDes_5": "Formulario, con la capacidad de agregar, editar y eliminar datos, utilizando Django como backend.",
 
+	"projectTitle_6": "Base de datos WasteShop",
+	"projectDes_6": "Tabla de clasificación gestionada con MySql Workbench y Deploy en FileZilla, donde se almacenan los datos del usuario en tiempo real, incluyendo puntuación, nombre, logros y más.",
+
 	"kidboxTitle": "SpookyJam - KidBox",
 	"kidboxDes": "Tema del Jam: 'Cuarentena'. Un niño aparece en una calle desolada, en medio de su confusión dentro de un mundo completamente extraño y picado por la curiosidad, tomará la decisión de descubrir qué le sucedió al mundo entero, evitando las siluetas que lo acechan durante su viaje, manteniendo un sigilo que le ayudará a avanzar encontrando pistas con las cuales calmar su curiosidad, con el fin de encontrar un final inesperado...",
 

@@ -208,7 +208,7 @@ function App() {
             {t('projectsmore')}
           </h1>
           <h1 className='font-JetBrains mx-auto text-center w-fit text-white border-b-4 border-secondaryColor rounded-lg mb-4 ml-auto text-xl sm:text-xl md:text-2xl xl:text-3xl'>
-            Web Development
+            Development
           </h1>
 
           <h1 className='font-JetBrains mx-auto my-6 text-center w-fit text-white border-secondaryColor rounded-lg mb-4 ml-auto text-4xl sm:text-4xl md:text-4xl xl:text-5xl'>
@@ -241,16 +241,23 @@ function App() {
             <CardProject
               title={t('projectTitle_4')}
               description={t('projectDes_4')}
-              tags={['React', 'APIRest', 'TailwindCSS']}
+              tags={['React', 'JavasScript', 'APIRest', 'TailwindCSS']}
               imgPath='img/Form_RestAPI_SM.png'
               linkGithub='https://github.com/Lelmats/Form_RestAPI-react-vite'
             />
             <CardProject
               title={t('projectTitle_5')}
               description={t('projectDes_5')}
-              tags={['Django', 'Bootstrap']}
+              tags={['Django', 'Python', 'Bootstrap']}
               imgPath='img/ScreenHome.png'
               linkGithub='https://github.com/Lelmats/DjangoForm'
+            />
+            <CardProject
+              title={t('projectTitle_6')}
+              description={t('projectDes_6')}
+              tags={['C#', 'SQL/MySql', 'FileZilla']}
+              imgPath='img/WasteShopBackLogo.png'
+              linkGithub='https://github.com/Lelmats/WasteShop'
             />
 
             <h1 className='font-JetBrains mx-auto text-center w-fit text-white my-8 ml-auto text-xl sm:text-3xl md:text-3xl xl:text-4xl'>
