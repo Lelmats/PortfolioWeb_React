@@ -182,9 +182,9 @@ function App() {
             />
             <CardExperience
             title={t('jobTitle_3')}
-            company='MEDIAEREA / Drone Solutions & Monitoring Technologies'
+            company='Ludens Productions'
             date={t('jobDate_3')}
-            imgPath='img/MAIcon.jpeg'
+            imgPath='img/Ludens.jpeg'
             />
             <CardExperience
             title={t('jobTitle_4')}
