@@ -10,7 +10,7 @@ export const CardExperience = ({ title, company, date, imgPath }: CardExperience
     <>
         <div className='mx-auto my-4 h-10 sm:h-16 w-1 bg-secondaryColor rounded-lg'></div>
         
-        <div className='bg-[#8b8b8b10] hover:bg-[#8b8b8b25] max-sm:border-8 border-[6px] mx-8 p-2 border-secondaryColor rounded-lg
+        <div className='bg-[#8b8b8b10] hover:bg-[#8b8b8b25] max-sm:border-4 border-[4px] mx-8 p-2 border-secondaryColor rounded-lg
         shadow-sm sm:hover:shadow-xl sm:hover:translate-x-4 sm:hover:translate-y-[-4px] transition-all duration-[400ms]'>
             <div className='grid md:grid-cols-5 items-center md:text-left '>
                 <div className='md:col-span-1'>

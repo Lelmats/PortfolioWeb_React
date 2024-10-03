@@ -18,8 +18,8 @@ export const CardProject = ({ title, description, tags, imgPath, linkGithub, itc
   return (
     <>
       <div>
-        <div className="flex flex-col md:flex-row max-sm:border-8 border-[6px] max-md:mx-10 mb-4 mx-4 p-2 border-gray-400 rounded-lg  items-center 
-         bg-[#8b8b8b10] hover:bg-[#8b8b8b25] 
+        <div className="flex flex-col md:flex-row max-sm:bg-[#8b8b8b0a] max-sm:border-0 max-sm:rounded-sm max-md:mx-10 mb-4 mx-4 p-2 border-gray-400  rounded-lg items-center 
+         bg-[#8b8b8b1e] hover:bg-[#8b8b8b25] 
         shadow-sm sm:hover:shadow-xl sm:hover:translate-x-4 sm:hover:translate-y-[-4px] transition-all duration-[400ms]"
         >
           <img className="object-cover object-top min-w-[200px] h-[200px] md:w-48 rounded-xl p-2 " src={imgPath} alt={title} />
