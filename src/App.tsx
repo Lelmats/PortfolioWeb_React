@@ -117,7 +117,7 @@ function App() {
                     color='#f29111'
                     />
                     <CardTechs
-                    title='MongoDB'
+                    title='FastAPI'
                     color='#f29111'
                     />
                     <CardTechs
@@ -188,9 +188,15 @@ function App() {
             />
             <CardExperience
             title={t('jobTitle_4')}
-            company='Me - Contracts'
+            company='Freelance'
             date={t('jobDate_4')}
             imgPath='img/smileFace.svg'
+            />
+            <CardExperience
+            title={t('jobTitle_5')}
+            company='MEDIAEREA / Drone Solutions & Monitoring Technologies'
+            date={t('jobDate_5')}
+            imgPath='img/MAIcon.jpeg'
             />
           </div>
         </div>
