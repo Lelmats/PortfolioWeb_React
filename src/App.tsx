@@ -71,7 +71,7 @@ function App() {
                 <div className='grid grid-flow-col gap-3 max-lg:mx-auto lg:ml-auto mb-0 max-lg:mb-10'>
                   <div id='ExteriorTechs' >
                     <CardTechs
-                    title='JavasScript'
+                    title='JavaScript'
                     color='#3178c6'
                     />
                     <CardTechs
