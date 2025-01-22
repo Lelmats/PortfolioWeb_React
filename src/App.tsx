@@ -75,7 +75,7 @@ function App() {
                     color='#3178c6'
                     />
                     <CardTechs
-                    title='Typescript'
+                    title='TypeScript'
                     color='#3178c6'
                     />
                     <CardTechs
