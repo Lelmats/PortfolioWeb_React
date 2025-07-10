@@ -169,10 +169,22 @@ function App() {
           </div>
           <div className="text-center mb-5">
             <CardExperience
-            title={t('jobTitle_1')}
-            company='RUBISCO'
-            date={t('jobDate_1')}
-            imgPath='img/Rubisco.png'
+            title={t('jobTitle_5')}
+            company='MEDIAEREA / Drone Solutions & Monitoring Technologies'
+            date={t('jobDate_5')}
+            imgPath='img/MAIcon.jpeg'
+            />
+            {/* <CardExperience
+            title={t('jobTitle_4')}
+            company='Freelance'
+            date={t('jobDate_4')}
+            imgPath='img/smileFace.svg'
+            /> */}
+            <CardExperience
+            title={t('jobTitle_3')}
+            company='Ludens Productions'
+            date={t('jobDate_3')}
+            imgPath='img/Ludens.jpeg'
             />
             <CardExperience
             title={t('jobTitle_2')}
@@ -181,22 +193,10 @@ function App() {
             imgPath='img/MAIcon.jpeg'
             />
             <CardExperience
-            title={t('jobTitle_3')}
-            company='Ludens Productions'
-            date={t('jobDate_3')}
-            imgPath='img/Ludens.jpeg'
-            />
-            <CardExperience
-            title={t('jobTitle_4')}
-            company='Freelance'
-            date={t('jobDate_4')}
-            imgPath='img/smileFace.svg'
-            />
-            <CardExperience
-            title={t('jobTitle_5')}
-            company='MEDIAEREA / Drone Solutions & Monitoring Technologies'
-            date={t('jobDate_5')}
-            imgPath='img/MAIcon.jpeg'
+            title={t('jobTitle_1')}
+            company='RUBISCO'
+            date={t('jobDate_1')}
+            imgPath='img/Rubisco.png'
             />
           </div>
         </div>
@@ -247,17 +247,17 @@ function App() {
             <CardProject
               title={t('projectTitle_4')}
               description={t('projectDes_4')}
-              tags={['React', 'JavasScript', 'APIRest', 'TailwindCSS']}
+              tags={['React', 'JavasScript', 'APIRest']}
               imgPath='img/Form_RestAPI_SM.png'
               linkGithub='https://github.com/Lelmats/Form_RestAPI-react-vite'
             />
-            <CardProject
+            {/* <CardProject
               title={t('projectTitle_5')}
               description={t('projectDes_5')}
               tags={['Django', 'Python', 'Bootstrap']}
               imgPath='img/ScreenHome.png'
               linkGithub='https://github.com/Lelmats/DjangoForm'
-            />
+            /> */}
             <CardProject
               title={t('projectTitle_6')}
               description={t('projectDes_6')}
