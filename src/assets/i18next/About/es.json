@@ -1,0 +1,60 @@
+{
+	"hi" : "Hola!,",
+	"my" : "Me",
+	"name" : "Llamo",
+	"softFull" : "Desarrollador de Software / Fullstack",
+	"aboutme" : "Sobre mí",
+	"aboutmeDes" : "Soy un desarrollador autodidacta apasionado con más de 2+ años de experiencia en desarrollo y 1+ Año Como desarrollador Web, con una sólida formación, desde diseño web, fundamentos de Front-End, así como tecnologías de Back-End y implementación de aplicaciones, incluidas otras herramientas que dejaré a continuación. Tuve la oportunidad de liderar pequeños equipos en proyectos, donde coordiné tareas, mentoría y mejora continua. Actualmente, estoy profundizando mis conocimientos en estructuras de datos y afilando constantemente mis habilidades. También tengo pasión por aprender nuevas tecnologías y siempre me esfuerzo por la mejora continua!(: 🚀",
+	"experience" : "Experiencia",
+	"projectsmore" : "Proyectos",
+	"gameDev" : "Desarrollo VideoJuegos",
+	"Hello!": "¡Hola!",
+	"About Me": "Sobre mí",
+	"techTools" : "Tecnologías",
+	"techToolsDes" : "Tecnologías que he usado anteriormente, puedo adaptarme a cualquier tecnología que sea necesaria y siempre abierto a aprender más!",
+
+	"Experience": "Experiencia",
+
+	"jobTitle_1": "Desarrollador Front-End",
+	"jobDate_1": "Enero 2021 - Junio 2021",
+	"jobTitle_2": "Desarrollador Front-End en Prácticas",
+	"jobDate_2": "Enero 2021 - Junio 2021",
+	"jobTitle_3": "Desarrollador Jr",
+	"jobDate_3": "Marzo 2022 - Julio 2022",
+	"jobTitle_4": "Desarrollador Full Stack Jr",
+	"jobDate_4": "Agosto 2022 - Septiembre 2024",
+	"jobTitle_5": "Full Stack Developer Jr",
+	"jobDate_5": "Octubre 2024 - Presente",
+
+	"Projects": "Proyectos",
+
+	"projectTitle_1": "MyCampus / ReportsWeb",
+	"projectDes_1": "Sitio web para registrar incidentes en un campus universitario basado en un mapa digital, gestionado por la administración universitaria.",
+
+	"projectTitle_2": "Control de Criptomonedas",
+	"projectDes_2": "Control de criptomonedas, con la posibilidad de calcular precios de mercado utilizando una API externa, que actualiza y muestra precios en tiempo real.",
+	
+	"projectTitle_3": "Seguimiento de Gastos",
+	"projectDes_3": "Seguimiento personal de gastos, con la capacidad de agregar, editar y eliminar gastos, utilizando LocalStorage para almacenar los datos y mantenerlos en el navegador.",
+	
+	"projectTitle_4": "Formulario RestAPI",
+	"projectDes_4": "Formulario que consume una RestAPI, con la capacidad de agregar, editar y eliminar datos.",
+	
+	"projectTitle_5": "Formulario Django",
+	"projectDes_5": "Formulario, con la capacidad de agregar, editar y eliminar datos, utilizando Django como backend.",
+
+	"projectTitle_6": "Base de datos WasteShop",
+	"projectDes_6": "Tabla de clasificación gestionada con MySql Workbench y Deploy en FileZilla, donde se almacenan los datos del usuario en tiempo real, incluyendo puntuación, nombre, logros y más.",
+
+	"kidboxTitle": "SpookyJam - KidBox",
+	"kidboxDes": "Tema del Jam: 'Cuarentena'. Un niño aparece en una calle desolada, en medio de su confusión dentro de un mundo completamente extraño y picado por la curiosidad, tomará la decisión de descubrir qué le sucedió al mundo entero, evitando las siluetas que lo acechan durante su viaje, manteniendo un sigilo que le ayudará a avanzar encontrando pistas con las cuales calmar su curiosidad, con el fin de encontrar un final inesperado...",
+
+	"takeRootTitle": "CreativeJam - TakeRoot",
+	"takeRootDes": "Tema del Jam: 'Raíces'. 3 niveles de plataformas, con un personaje principal un Honguito que puede saltar y usar su gancho para agarrar y moverse fácilmente por el mapa, incluso usar atajos, al final intentando llegar a su maceta y dormir(:!.",
+
+	"wasteShopTitle": "WasteShop",
+	"wasteShopDes": "En un mundo post-apocalíptico. Los jugadores asumen el papel de un comerciante que administra una pequeña tienda, vendiendo artículos y recursos a clientes dudosos. El objetivo es gestionar el tiempo de manera efectiva, ganar puntos y convertirse en el mejor administrador de tiendas en la tabla de clasificaciones.",
+	
+	"contact": "Contacto:"
+
+}

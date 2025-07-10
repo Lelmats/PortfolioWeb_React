@@ -1,0 +1,61 @@
+{
+	"hi" : "Hi!,",
+	"my" : "My",
+	"name" : "Name is",
+	"softFull" : "A Software / Fullstack Developer",
+	"aboutme" : "About Me",
+	"aboutmeDes" : "I am a passionate developer with over 2+ years of experience in development and 1+ year as a Web developer, with a solid background, from web design, Front-End fundamentals, as well as Back-End technologies and application deployment, including other tools that I show below. I had the opportunity to lead small teams in projects, where I coordinated tasks, mentoring. Currently, I am deepening my knowledge in data structures and constantly sharpening my skills. I also have a passion for learning new technologies and always strive for continuous improvement!(: 🚀",
+	"experience" : "Experience",
+	"projectsmore" : "Projects & More",
+	"gameDev" : "Game Development",
+	"Hello!": "Hello!",
+	"About Me": "About Me",
+	"techTools" : "Technologies",
+	"techToolsDes" : "Technologies that I have previously used, I can adapt to any technology that is needed and always open to learn more!",
+
+	"Experience": "Experience",
+
+	"jobTitle_1": "Front-End Developer",
+	"jobDate_1": "January 2021 - June 2021",
+	"jobTitle_2": "Intern Front-End Developer",
+	"jobDate_2": "January 2021 - June 2021",
+	"jobTitle_3": "Software Developer Jr",
+	"jobDate_3": "March 2022 - July 2022",
+	"jobTitle_4": "Full Stack Developer Jr",
+	"jobDate_4": "August 2022 - September 2024",
+	"jobTitle_5": "Full Stack Developer Jr",
+	"jobDate_5": "October 2024 - Present",
+
+
+
+	"Projects": "Projects",
+
+	"projectTitle_1": "MyCampus / ReportsWeb",
+	"projectDes_1": "Website for recording incidents on a university campus based on a digital map, managed by university administration.",
+	
+	"projectTitle_2": "Crypto Control",
+	"projectDes_2": "Cryptocurrency control, with the possibility of calculating market prices using an external API, which updates and displays real-time prices.",
+	
+	"projectTitle_3": "Expense Tracker",
+	"projectDes_3": "Personal expense tracker, with the ability to add, edit, and delete expenses, using LocalStorage to store the data and keep it in the browser.",
+	
+	"projectTitle_4": "RestAPI Form",
+	"projectDes_4": "Form that consumes a RestAPI, with the ability to add, edit, and delete data.",
+
+	"projectTitle_5": "Django Form",
+	"projectDes_5": "Form with the ability to add, edit, and delete data, using Django as the backend.",
+
+	"projectTitle_6": "WasteShop Database",
+	"projectDes_6": "Leaderboard managed with MySql Workbench & Deploy FileZilla, where the data of the user is stored in realtime, including score, name, achievements, and more.",
+
+	"kidboxTitle": "SpookyJam - KidBox",
+	"kidboxDes": "Theme of the Jam: 'Quarantine'. A boy appears on a desolate street, amidst his confusion within a completely strange world and piqued by curiosity, he will make the decision to discover what happened to the entire world, avoiding the silhouettes that stalk him during his trip, maintaining a stealth which will help him advance by finding clues with which to calm his curiosity, in order to find an unexpected ending...",
+
+	"takeRootTitle": "CreativeJam - TakeRoot",
+	"takeRootDes": "Theme of the Jam: 'Roots'. 3 Plataform levels, with a main character a Fongus that can jump and use his hook to grab and move through the map easily, even use shortcuts, at the end trying to reach his pot and sleep(:!.",
+
+	"wasteShopTitle": "WasteShop",
+	"wasteShopDes": "This virtual reality game is set in a post-apocalyptic wasteland. Players take on the role of a trader running a small store, selling items and resources to survivors. The goal is to manage time effectively, earn points, and work toward becoming the top-ranked store manager on the leaderboard.",
+
+	"contact": "Contact:"
+}
