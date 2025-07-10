@@ -113,7 +113,7 @@ function App() {
                     color='#0db7ed'
                     />
                     <CardTechs
-                    title='NodeJS'
+                    title='ExpressJS'
                     color='#f29111'
                     />
                     <CardTechs
